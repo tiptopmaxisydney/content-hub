@@ -37,11 +37,16 @@ export const BlogPosts: CollectionConfig = {
     {
       name: "sections",
       type: "array",
-      required: true,
+      admin: { description: "Structured heading+paragraph blocks. Used by baby-seat and wheelchair; leave empty if using Content below." },
       fields: [
         { name: "heading", type: "text" },
         { name: "paragraphs", type: "array", fields: [{ name: "text", type: "textarea", required: true }] },
       ],
+    },
+    {
+      name: "content",
+      type: "richText",
+      admin: { description: "Rich text body. Used by transport-solutions (imported from its original raw-HTML posts); leave empty if using Sections above." },
     },
   ],
 };

@@ -1,5 +1,8 @@
 import path from "path";
 import { getPayload } from "payload";
+import { JSDOM } from "jsdom";
+import { convertHTMLToLexical, defaultEditorConfig, sanitizeServerEditorConfig } from "@payloadcms/richtext-lexical";
+import type { SanitizedServerEditorConfig } from "@payloadcms/richtext-lexical";
 
 type Payload = Awaited<ReturnType<typeof getPayload>>;
 
@@ -42,5 +45,20 @@ export function createMediaUploader(payload: Payload, publicDir: string) {
     cache.set(src, doc.id as string);
     console.log(`  uploaded media: ${src}`);
     return doc.id as string;
+  };
+}
+
+/**
+ * Converts a raw HTML string (e.g. transport-solutions-sydney's original contentHtml
+ * blog posts) into Payload's lexical richText JSON, for the BlogPosts `content` field.
+ * Caches the sanitized editor config since it's the same for every call.
+ */
+export function createHtmlToLexicalConverter(payload: Payload) {
+  let editorConfigPromise: Promise<SanitizedServerEditorConfig> | undefined;
+
+  return async function htmlToLexical(html: string) {
+    editorConfigPromise ??= sanitizeServerEditorConfig(defaultEditorConfig, payload.config);
+    const editorConfig = await editorConfigPromise;
+    return convertHTMLToLexical({ editorConfig, html, JSDOM });
   };
 }

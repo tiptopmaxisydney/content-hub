@@ -61,6 +61,17 @@ export const Pages: CollectionConfig = {
       ],
     },
     {
+      name: "contentSections",
+      type: "array",
+      labels: { singular: "Content Section", plural: "Content Sections" },
+      admin: { description: "Repeatable heading + paragraphs + optional bullet list, for pages with more than one distinct body section (e.g. transport-solutions service pages)." },
+      fields: [
+        { name: "heading", type: "text" },
+        { name: "paragraphs", type: "array", fields: [{ name: "text", type: "textarea", required: true }] },
+        { name: "bulletList", type: "array", labels: { singular: "Bullet", plural: "Bullet List" }, fields: [{ name: "text", type: "text", required: true }] },
+      ],
+    },
+    {
       name: "faq",
       type: "array",
       fields: [
