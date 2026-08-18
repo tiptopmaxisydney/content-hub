@@ -4,7 +4,8 @@ Shared Payload CMS serving content (pages, blog posts, media) to all four Tiptop
 marketing sites: baby-seat-taxi-sydney, transport-solutions-sydney, wheelchair-taxi-sydney,
 tiptopride-landing. One admin panel, one database, each site scoped by the `sites` collection.
 
-Only baby-seat-taxi-sydney is wired up so far (pilot). See "Adding another site" below.
+baby-seat-taxi-sydney and wheelchair-taxi-sydney are wired up so far. transport-solutions-sydney
+and tiptopride-landing still serve hardcoded content. See "Adding another site" below.
 
 ## Local dev
 
@@ -29,16 +30,17 @@ transactions during the initial seed. Transactions are disabled - content edits 
 single-document writes, so the atomicity they'd provide isn't load-bearing. Revisit if
 the Atlas tier changes.
 
-## Seeding baby-seat-taxi-sydney
+## Seeding
 
-One-time migration into Payload, images included, from a frozen snapshot of the site's
-original hardcoded content (`scripts/source-snapshots/baby-seat/`, taken from
+One-time migration into Payload per site, images included, from a frozen snapshot of
+each site's original hardcoded content (`scripts/source-snapshots/<site>/`, taken from
 `lib/servicePages.ts` / `lib/blogPosts.ts` before that site was rewired to fetch from
 this CMS - those files no longer hold the raw data themselves). Safe to re-run (upserts
 by site+slug).
 
 ```
 npm run seed:baby-seat
+npm run seed:wheelchair
 ```
 
 ## How a frontend site consumes this
@@ -49,19 +51,26 @@ the pattern. Pages are cached with Next.js ISR (1hr) and revalidated on-demand: 
 `pages`/`blog-posts` write here pings the frontend's `/api/revalidate` (see
 `FRONTEND_URLS` in `.env` and `src/hooks/revalidateFrontend.ts`).
 
-## Adding another site (transport-solutions, wheelchair, tiptopride-landing)
+## Adding another site (transport-solutions, tiptopride-landing)
 
 1. Add a `sites` doc for it in the admin panel (or extend the `key` options in
    `src/collections/Sites.ts` first).
 2. Look at that site's `lib/*.ts` content files and decide whether the existing `pages`
-   / `blog-posts` schema fits, or whether it needs its own fields - these sites weren't
-   all shaped the same as baby-seat's.
-3. Copy `scripts/seed-baby-seat.ts` as a starting point for that site's migration script.
+   / `blog-posts` schema fits, or whether it needs its own fields - baby-seat and
+   wheelchair happened to share the exact same `ServicePage`/`BlogPost` shape, but don't
+   assume the rest will.
+3. Copy `scripts/seed-wheelchair.ts` as a starting point for that site's migration
+   script - it (and seed-baby-seat.ts) share their upsert/media-upload logic via
+   `scripts/seedUtils.ts`.
 4. Add `lib/cmsClient.ts` + rewire `lib/*.ts` in that site's repo the same way it was
-   done for baby-seat-taxi-sydney (see that repo's `lib/servicePages.ts` /
-   `lib/blogPosts.ts` / `lib/cmsClient.ts` and the 4 call sites listed in its
-   `app/[slug]/page.tsx`, `app/sitemap.ts`, `app/page.tsx`, and its blog listing page).
-5. Add the new site's dev URL to `FRONTEND_URLS` in `.env`.
+   done for baby-seat-taxi-sydney and wheelchair-taxi-sydney (see either repo's
+   `lib/servicePages.ts` / `lib/blogPosts.ts` / `lib/cmsClient.ts`, and grep that repo
+   for `from "@/lib/servicePages"` / `from "@/lib/blogPosts"` to find every call site -
+   it was 4 files for baby-seat, 3 for wheelchair, don't assume the count).
+5. Add an `/api/revalidate` route (copy from either migrated site) and a
+   `remotePatterns` entry for the CMS in `next.config.ts`.
+6. Add the new site's dev URL to `FRONTEND_URLS` in `content-hub/.env`, and
+   `NEXT_PUBLIC_CMS_URL` + `REVALIDATE_SECRET` to the site's own `.env.local`.
 
 ## Deploying (DigitalOcean)
 

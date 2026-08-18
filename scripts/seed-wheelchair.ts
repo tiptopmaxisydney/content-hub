@@ -1,12 +1,10 @@
 /**
- * One-time migration: reads baby-seat-taxi-sydney's original hardcoded content and
+ * One-time migration: reads wheelchair-taxi-sydney's original hardcoded content and
  * creates matching docs in Payload, uploading each referenced image into Media along
- * the way. The source data is a frozen snapshot (./source-snapshots/baby-seat/) taken
- * from lib/servicePages.ts + lib/blogPosts.ts at the commit before that site was
- * rewired to fetch from this CMS - those files no longer hold this data themselves,
- * so this script intentionally doesn't depend on the live frontend repo's lib/ files.
+ * the way. Source is a frozen snapshot (./source-snapshots/wheelchair/) - see
+ * seed-baby-seat.ts for why this doesn't read the live frontend repo's lib/ files.
  *
- * Run with: npm run seed:baby-seat   (from content-hub/)
+ * Run with: npm run seed:wheelchair   (from content-hub/)
  * Safe to re-run - existing docs (matched by site+slug) are updated, not duplicated.
  */
 import path from "path";
@@ -14,34 +12,25 @@ import { fileURLToPath } from "url";
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 import { upsertSite, upsertBySlug, createMediaUploader } from "./seedUtils";
-import { servicePages } from "./source-snapshots/baby-seat/servicePages";
-import { blogPosts } from "./source-snapshots/baby-seat/blogPosts";
+import { servicePages } from "./source-snapshots/wheelchair/servicePages";
+import { blogPosts } from "./source-snapshots/wheelchair/blogPosts";
 
 const dirname = path.dirname(fileURLToPath(import.meta.url));
-const publicDir = path.resolve(dirname, "../../baby-seat-taxi-sydney/public");
-
-// Location pages get pageType "location" for admin filtering; everything else is "service".
-const LOCATION_SLUGS = new Set([
-  "baby-seat-taxi-parramatta",
-  "baby-seat-taxi-blacktown",
-  "baby-seat-taxi-liverpool",
-  "baby-seat-taxi-penrith",
-  "baby-seat-taxi-campbelltown",
-  "baby-seat-taxi-chatswood",
-  "baby-seat-taxi-bondi",
-]);
+const publicDir = path.resolve(dirname, "../../wheelchair-taxi-sydney/public");
 
 async function run() {
   const payload = await getPayload({ config });
   const getOrUploadMedia = createMediaUploader(payload, publicDir);
-  const site = await upsertSite(payload, { name: "Baby Seat Taxi Sydney", key: "baby-seat", domain: "babyseattaxisydney.com.au" });
+  const site = await upsertSite(payload, { name: "Wheelchair Taxi Sydney", key: "wheelchair", domain: "wheelchairtaxisydney.com.au" });
 
-  console.log(`Seeding ${servicePages.length} service/location pages...`);
+  // Unlike baby-seat, this site's pages aren't split into services vs suburb/location
+  // pages - all 29 are one flat list, so every doc gets pageType "service".
+  console.log(`Seeding ${servicePages.length} service pages...`);
   for (const p of servicePages) {
     const imageId = await getOrUploadMedia(p.image.src, p.image.alt);
     const data = {
       site: site.id,
-      pageType: LOCATION_SLUGS.has(p.slug) ? "location" : "service",
+      pageType: "service",
       slug: p.slug,
       navLabel: p.navLabel,
       metaTitle: p.metaTitle,

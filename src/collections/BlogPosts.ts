@@ -7,9 +7,8 @@ export const BlogPosts: CollectionConfig = {
   slug: "blog-posts",
   admin: {
     useAsTitle: "title",
-    defaultColumns: ["title", "site", "slug", "date", "_status"],
+    defaultColumns: ["title", "site", "slug", "date"],
   },
-  versions: { drafts: { autosave: { interval: 1000 } } },
   access: {
     read: () => true,
     create: siteScopedAccess,

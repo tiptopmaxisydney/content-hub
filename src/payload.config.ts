@@ -4,6 +4,7 @@ import sharp from "sharp";
 import { buildConfig } from "payload";
 import { mongooseAdapter } from "@payloadcms/db-mongodb";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
+import { multiTenantPlugin } from "@payloadcms/plugin-multi-tenant";
 
 import { Users } from "./collections/Users";
 import { Sites } from "./collections/Sites";
@@ -21,6 +22,24 @@ export default buildConfig({
   },
   collections: [Users, Sites, Media, Pages, BlogPosts],
   editor: lexicalEditor(),
+  plugins: [
+    // Pins a "site" switcher at the top of the admin nav and scopes every Pages/Blog
+    // Posts list view to whichever site is selected, so editing one site never shows
+    // another site's docs mixed into the same list.
+    multiTenantPlugin({
+      tenantsSlug: Sites.slug,
+      // Reuse the `site` relationship field already defined on Pages/BlogPosts (see
+      // customTenantField below) instead of having the plugin add its own duplicate field.
+      tenantField: { name: "site" },
+      collections: {
+        pages: { customTenantField: true, useTenantAccess: false },
+        "blog-posts": { customTenantField: true, useTenantAccess: false },
+      },
+      // Access control itself is still handled by siteScopedAccess (src/access/siteScoped.ts)
+      // on each collection - this plugin only drives the admin UI selector + list filtering.
+      userHasAccessToAllTenants: (user) => (user as { role?: string } | null)?.role === "admin",
+    }),
+  ],
   secret: process.env.PAYLOAD_SECRET ?? "",
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),

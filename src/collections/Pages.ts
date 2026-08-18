@@ -7,10 +7,9 @@ export const Pages: CollectionConfig = {
   slug: "pages",
   admin: {
     useAsTitle: "h1",
-    defaultColumns: ["h1", "site", "pageType", "slug", "_status"],
+    defaultColumns: ["h1", "site", "pageType", "slug"],
     description: "Service and location landing pages, e.g. /baby-capsule-taxi-sydney",
   },
-  versions: { drafts: { autosave: { interval: 1000 } } },
   access: {
     read: () => true,
     create: siteScopedAccess,
