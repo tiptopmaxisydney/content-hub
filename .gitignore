@@ -6,7 +6,3 @@ payload-types.ts
 dist
 .DS_Store
 tsconfig.tsbuildinfo
-
-# Local-disk media uploads - not committed, see README's note on switching to
-# object storage (DO Spaces) before this matters for a real multi-server deploy.
-media/
