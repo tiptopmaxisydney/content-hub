@@ -4,8 +4,9 @@ Shared Payload CMS serving content (pages, blog posts, media) to all four Tiptop
 marketing sites: baby-seat-taxi-sydney, transport-solutions-sydney, wheelchair-taxi-sydney,
 tiptopride-landing. One admin panel, one database, each site scoped by the `sites` collection.
 
-baby-seat-taxi-sydney and wheelchair-taxi-sydney are wired up so far. transport-solutions-sydney
-and tiptopride-landing still serve hardcoded content. See "Adding another site" below.
+baby-seat-taxi-sydney, wheelchair-taxi-sydney, and transport-solutions-sydney are wired up
+so far. tiptopride-landing is a single static landing page (no list of pages/posts, unlike
+the other three) and was intentionally left out of this - see "Adding another site" below.
 
 ## Local dev
 
@@ -41,7 +42,31 @@ by site+slug).
 ```
 npm run seed:baby-seat
 npm run seed:wheelchair
+npm run seed:transport-solutions          # blog posts (from a clean data array)
+npm run seed:transport-solutions-pages    # service pages (hand-transcribed, see below)
 ```
+
+**transport-solutions-sydney is a different shape from the other two**, worth knowing about
+before touching its schema or seed scripts:
+- Its blog posts stored raw HTML (`contentHtml`) instead of a heading+paragraphs array, so
+  `BlogPosts.content` (richText) was added alongside the existing `BlogPosts.sections` -
+  each site's frontend only reads the field its own posts actually use. The HTML was
+  converted to lexical JSON at seed time via `@payloadcms/richtext-lexical`'s
+  `convertHTMLToLexical` (needs `jsdom`, a devDependency) - see `seedUtils.ts`'s
+  `createHtmlToLexicalConverter`.
+- Its service pages were never in a clean data array - they were hardcoded directly in 25
+  separate JSX route files (several nested, e.g. `/taxi-services/sydney-airport-transfer/`),
+  so there was nothing to freeze automatically. They were transcribed by hand into
+  `scripts/source-snapshots/transport-solutions/servicePages.ts` instead. `Pages.contentSections`
+  (a generic repeatable heading+paragraphs+bulletList block) was added to accommodate this -
+  the original site's fixed `intro`/`features`/`faq` fields were too rigid for pages with
+  3+ distinct prose sections each with their own heading.
+- Several of those 25 pages also used bespoke one-off visual widgets (a fare table, fleet
+  spec grids, a reviews grid, a service-area grid, stat-tile rows) that don't reduce to
+  plain text - those were deliberately **not** migrated and don't exist anywhere in the new
+  frontend template. The original markup is still recoverable via git history in
+  transport-solutions-sydney (the route files were committed before being deleted) if
+  someone wants to rebuild any of them as a proper widget later.
 
 ## How a frontend site consumes this
 
@@ -51,7 +76,14 @@ the pattern. Pages are cached with Next.js ISR (1hr) and revalidated on-demand: 
 `pages`/`blog-posts` write here pings the frontend's `/api/revalidate` (see
 `FRONTEND_URLS` in `.env` and `src/hooks/revalidateFrontend.ts`).
 
-## Adding another site (transport-solutions, tiptopride-landing)
+## Adding another site (tiptopride-landing)
+
+tiptopride-landing doesn't fit this runbook as-is - it's a single static landing page (hero,
+about, testimonials, FAQ, etc. as hardcoded React components), not a site with a list of
+pages/posts. Making it CMS-editable would mean designing a new content type for its
+homepage sections, not reusing `pages`/`blog-posts`. The steps below are for a site whose
+shape resembles baby-seat/wheelchair/transport-solutions - i.e. it has distinct addressable
+pages and/or blog posts.
 
 1. Add a `sites` doc for it in the admin panel (or extend the `key` options in
    `src/collections/Sites.ts` first).
