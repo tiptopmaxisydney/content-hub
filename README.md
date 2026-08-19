@@ -4,9 +4,8 @@ Shared Payload CMS serving content (pages, blog posts, media) to all four Tiptop
 marketing sites: baby-seat-taxi-sydney, transport-solutions-sydney, wheelchair-taxi-sydney,
 tiptopride-landing. One admin panel, one database, each site scoped by the `sites` collection.
 
-baby-seat-taxi-sydney, wheelchair-taxi-sydney, and transport-solutions-sydney are wired up
-so far. tiptopride-landing is a single static landing page (no list of pages/posts, unlike
-the other three) and was intentionally left out of this - see "Adding another site" below.
+All four sites are wired up: baby-seat-taxi-sydney, wheelchair-taxi-sydney,
+transport-solutions-sydney, and tiptopride-landing.
 
 ## Local dev
 
@@ -44,6 +43,7 @@ npm run seed:baby-seat
 npm run seed:wheelchair
 npm run seed:transport-solutions          # blog posts (from a clean data array)
 npm run seed:transport-solutions-pages    # service pages (hand-transcribed, see below)
+npm run seed:tiptopride-landing-pages     # ~176 SEO landing pages (hand-transcribed, see below)
 ```
 
 **transport-solutions-sydney is a different shape from the other two**, worth knowing about
@@ -68,6 +68,26 @@ before touching its schema or seed scripts:
   transport-solutions-sydney (the route files were committed before being deleted) if
   someone wants to rebuild any of them as a proper widget later.
 
+**tiptopride-landing** is a large programmatic-SEO site - ~176 pages, one per suburb/service
+combo (e.g. `maxi-taxi-parramatta`, `baby-seat-taxi-auburn`), each a separate hardcoded route
+importing its own uniquely-named Hero/About/OtherContent component. Like transport-solutions,
+there was no clean data array, so it was hand-transcribed into
+`scripts/source-snapshots/tiptopride-landing/servicePages.ts`, reusing the same
+`Pages.contentSections`/`faq`/`image` fields - no further schema changes were needed. Two
+things worth knowing if you touch this site's content again:
+- Its "Services" and "FAQ" sections are each one of ~13-14 shared components reused across
+  many pages by category (not unique per suburb) - see `FAQ_SETS` and `SERVICES_SETS` in
+  `servicePages.ts`, each keyed by the original component's name, transcribed once and
+  referenced from every page entry that used it, rather than duplicated 176 times.
+- Its hero "feature chip" strips (e.g. "Fixed Fare", "24/7 Service") are unique per page and
+  ARE captured - folded into the first `contentSections` entry's `bulletList` alongside that
+  section's own content, rather than getting a dedicated field.
+- 7 pages were excluded entirely (stay hardcoded): about-us, contact-us, areas-we-serve,
+  privacy-policy, app-privacy-policy, cancellation-policy, terms-of-service - core/legal
+  pages, not instances of the SEO template.
+- This site runs Next 15 (the other three run Next 16) - its `/api/revalidate` route calls
+  `revalidateTag(tag)` with one argument, not the two-argument form Next 16 requires.
+
 ## How a frontend site consumes this
 
 Each frontend fetches its own content straight from the REST API, scoped with
@@ -76,14 +96,13 @@ the pattern. Pages are cached with Next.js ISR (1hr) and revalidated on-demand: 
 `pages`/`blog-posts` write here pings the frontend's `/api/revalidate` (see
 `FRONTEND_URLS` in `.env` and `src/hooks/revalidateFrontend.ts`).
 
-## Adding another site (tiptopride-landing)
+## Adding another site
 
-tiptopride-landing doesn't fit this runbook as-is - it's a single static landing page (hero,
-about, testimonials, FAQ, etc. as hardcoded React components), not a site with a list of
-pages/posts. Making it CMS-editable would mean designing a new content type for its
-homepage sections, not reusing `pages`/`blog-posts`. The steps below are for a site whose
-shape resembles baby-seat/wheelchair/transport-solutions - i.e. it has distinct addressable
-pages and/or blog posts.
+All four Tiptop sites are migrated now. If a fifth site is ever added, this runbook applies
+as long as it has a list of distinct addressable pages and/or blog posts (like all four
+current sites, despite their differing shapes) - a genuinely different kind of site (e.g. a
+single static page with no page/post list) would need its own content type designed instead
+of reusing `pages`/`blog-posts`.
 
 1. Add a `sites` doc for it in the admin panel (or extend the `key` options in
    `src/collections/Sites.ts` first).
