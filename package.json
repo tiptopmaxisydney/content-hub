@@ -13,7 +13,10 @@
     "seed:wheelchair": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-wheelchair.ts",
     "seed:transport-solutions": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-transport-solutions.ts",
     "seed:transport-solutions-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-transport-solutions-pages.ts",
-    "seed:tiptopride-landing-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-tiptopride-landing-pages.ts"
+    "seed:tiptopride-landing-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-tiptopride-landing-pages.ts",
+    "migrate:p1-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p1-urls.ts",
+    "migrate:p2-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p2-urls.ts",
+    "migrate:p3-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p3-urls.ts"
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "3.88.0",
