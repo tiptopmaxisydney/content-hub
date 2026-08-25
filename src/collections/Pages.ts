@@ -79,5 +79,17 @@ export const Pages: CollectionConfig = {
         { name: "answer", type: "textarea", required: true },
       ],
     },
+    {
+      name: "relatedLinks",
+      type: "array",
+      labels: { singular: "Related Link", plural: "Related Links" },
+      admin: { description: "Internal links to other pages on this site, e.g. suburb <-> airport <-> vehicle routes. Rendered as a linked card grid near the bottom of the page (same component as the /locations pages)." },
+      fields: [
+        { name: "icon", type: "text", admin: { description: "A single emoji, e.g. ✈️" } },
+        { name: "title", type: "text", required: true },
+        { name: "description", type: "text", required: true },
+        { name: "href", type: "text", required: true, admin: { description: "Site-relative path, e.g. /parramatta-to-sydney-airport-taxi/" } },
+      ],
+    },
   ],
 };
