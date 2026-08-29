@@ -3,10 +3,11 @@ import { getPayload } from "payload";
 import { JSDOM } from "jsdom";
 import { convertHTMLToLexical, defaultEditorConfig, sanitizeServerEditorConfig } from "@payloadcms/richtext-lexical";
 import type { SanitizedServerEditorConfig } from "@payloadcms/richtext-lexical";
+import type { Site } from "../src/payload-types";
 
 type Payload = Awaited<ReturnType<typeof getPayload>>;
 
-export async function upsertSite(payload: Payload, data: { name: string; key: string; domain: string }) {
+export async function upsertSite(payload: Payload, data: { name: string; key: Site["key"]; domain: string }) {
   const existing = await payload.find({ collection: "sites", where: { key: { equals: data.key } }, limit: 1 });
   if (existing.docs[0]) return existing.docs[0];
   return payload.create({ collection: "sites", data });
@@ -20,10 +21,15 @@ export async function upsertBySlug(
   data: Record<string, unknown>,
 ) {
   const existing = await payload.find({ collection, where: { and: [{ site: { equals: siteId } }, { slug: { equals: slug } }] }, limit: 1 });
+  // data is intentionally a loose Record here (seed scripts assemble it per-collection) - Payload's
+  // generated create/update types want the collection's full literal shape, which this helper can't
+  // express generically across "pages" | "blog-posts".
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const typedData = data as any;
   if (existing.docs[0]) {
-    return payload.update({ collection, id: existing.docs[0].id, data });
+    return payload.update({ collection, id: existing.docs[0].id, data: typedData, draft: false });
   }
-  return payload.create({ collection, data });
+  return payload.create({ collection, data: typedData, draft: false });
 }
 
 /** Uploads (or reuses, if already present by filename) an image referenced by a site's frozen content snapshot. */

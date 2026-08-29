@@ -2,6 +2,7 @@ import type { CollectionConfig } from "payload";
 import { siteScopedAccess } from "../access/siteScoped";
 import { enforceUniqueSlugPerSite } from "../hooks/enforceUniqueSlugPerSite";
 import { revalidateOnChange, revalidateOnDelete } from "../hooks/revalidateFrontend";
+import { seoWorkflowFields } from "../fields/seoWorkflowFields";
 
 export const BlogPosts: CollectionConfig = {
   slug: "blog-posts",
@@ -22,6 +23,7 @@ export const BlogPosts: CollectionConfig = {
   },
   fields: [
     { name: "site", type: "relationship", relationTo: "sites", required: true, index: true },
+    ...seoWorkflowFields,
     { name: "slug", type: "text", required: true, index: true },
     { name: "title", type: "text", required: true },
 

@@ -15,6 +15,9 @@
     "seed:transport-solutions-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-transport-solutions-pages.ts",
     "seed:suburb-route-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-suburb-route-pages.ts",
     "seed:tiptopride-landing-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-tiptopride-landing-pages.ts",
+    "seed:transport-solutions-locations": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-transport-solutions-locations.ts",
+    "backfill:seo-status": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/backfill-seo-status.ts",
+    "ingest:search-console": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/ingest-search-console.ts",
     "migrate:p1-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p1-urls.ts",
     "migrate:p2-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p2-urls.ts",
     "migrate:p3-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p3-urls.ts"
@@ -25,6 +28,7 @@
     "@payloadcms/plugin-multi-tenant": "^3.88.0",
     "@payloadcms/richtext-lexical": "3.88.0",
     "@payloadcms/storage-s3": "3.88.0",
+    "googleapis": "^144.0.0",
     "graphql": "^16.9.0",
     "next": "16.3.0",
     "payload": "3.88.0",

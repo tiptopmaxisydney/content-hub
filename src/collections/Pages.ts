@@ -1,7 +1,9 @@
 import type { CollectionConfig } from "payload";
 import { siteScopedAccess } from "../access/siteScoped";
 import { enforceUniqueSlugPerSite } from "../hooks/enforceUniqueSlugPerSite";
+import { enforceUniqueTargetKeyword } from "../hooks/enforceUniqueTargetKeyword";
 import { revalidateOnChange, revalidateOnDelete } from "../hooks/revalidateFrontend";
+import { seoWorkflowFields } from "../fields/seoWorkflowFields";
 
 export const Pages: CollectionConfig = {
   slug: "pages",
@@ -17,12 +19,13 @@ export const Pages: CollectionConfig = {
     delete: siteScopedAccess,
   },
   hooks: {
-    beforeValidate: [enforceUniqueSlugPerSite],
+    beforeValidate: [enforceUniqueSlugPerSite, enforceUniqueTargetKeyword],
     afterChange: [revalidateOnChange],
     afterDelete: [revalidateOnDelete],
   },
   fields: [
     { name: "site", type: "relationship", relationTo: "sites", required: true, index: true },
+    ...seoWorkflowFields,
     {
       name: "pageType",
       type: "select",
@@ -80,6 +83,14 @@ export const Pages: CollectionConfig = {
       ],
     },
     {
+      name: "relatedFaqs",
+      type: "relationship",
+      relationTo: "faq-library",
+      hasMany: true,
+      admin: { description: "Shared/tagged FAQs pulled in alongside the page-specific FAQ list above." },
+      filterOptions: ({ data }) => (data?.site ? { site: { equals: data.site } } : true),
+    },
+    {
       name: "relatedLinks",
       type: "array",
       labels: { singular: "Related Link", plural: "Related Links" },
@@ -88,7 +99,24 @@ export const Pages: CollectionConfig = {
         { name: "icon", type: "text", admin: { description: "A single emoji, e.g. ✈️" } },
         { name: "title", type: "text", required: true },
         { name: "description", type: "text", required: true },
-        { name: "href", type: "text", required: true, admin: { description: "Site-relative path, e.g. /parramatta-to-sydney-airport-taxi/" } },
+        {
+          name: "targetPage",
+          type: "relationship",
+          relationTo: "pages",
+          admin: { description: "Prefer this over typing a path below - the link stays correct automatically if the target's slug changes." },
+          filterOptions: ({ data }) => (data?.site ? { site: { equals: data.site } } : true),
+        },
+        {
+          name: "targetLocation",
+          type: "relationship",
+          relationTo: "locations",
+          filterOptions: ({ data }) => (data?.site ? { site: { equals: data.site } } : true),
+        },
+        {
+          name: "href",
+          type: "text",
+          admin: { description: "Site-relative path, e.g. /parramatta-to-sydney-airport-taxi/. Only used as a fallback when neither target field above is set." },
+        },
       ],
     },
   ],

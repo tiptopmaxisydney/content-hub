@@ -11,6 +11,11 @@ import { Sites } from "./collections/Sites";
 import { Media } from "./collections/Media";
 import { Pages } from "./collections/Pages";
 import { BlogPosts } from "./collections/BlogPosts";
+import { Locations } from "./collections/Locations";
+import { FaqLibrary } from "./collections/FaqLibrary";
+import { SearchConsoleMetrics } from "./collections/SearchConsoleMetrics";
+import { VehicleSpecs } from "./collections/VehicleSpecs";
+import { gscOpportunitiesEndpoint } from "./endpoints/gscOpportunities";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -20,7 +25,8 @@ export default buildConfig({
   admin: {
     user: Users.slug,
   },
-  collections: [Users, Sites, Media, Pages, BlogPosts],
+  collections: [Users, Sites, Media, Pages, BlogPosts, Locations, FaqLibrary, SearchConsoleMetrics, VehicleSpecs],
+  endpoints: [gscOpportunitiesEndpoint],
   editor: lexicalEditor(),
   plugins: [
     // Pins a "site" switcher at the top of the admin nav and scopes every Pages/Blog
@@ -34,6 +40,9 @@ export default buildConfig({
       collections: {
         pages: { customTenantField: true, useTenantAccess: false },
         "blog-posts": { customTenantField: true, useTenantAccess: false },
+        locations: { customTenantField: true, useTenantAccess: false },
+        "faq-library": { customTenantField: true, useTenantAccess: false },
+        "vehicle-specs": { customTenantField: true, useTenantAccess: false },
       },
       // Access control itself is still handled by siteScopedAccess (src/access/siteScoped.ts)
       // on each collection - this plugin only drives the admin UI selector + list filtering.
