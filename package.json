@@ -20,6 +20,7 @@
     "ingest:search-console": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/ingest-search-console.ts",
     "seed:vehicle-specs": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-vehicle-specs.ts",
     "seed:suburb-hub-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-suburb-hub-pages.ts",
+    "seed:airport-keyword-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-airport-keyword-pages.ts",
     "seed:stage2-suburb-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-stage2-suburb-pages.ts",
     "migrate:p1-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p1-urls.ts",
     "migrate:p2-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p2-urls.ts",
