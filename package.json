@@ -18,6 +18,8 @@
     "seed:transport-solutions-locations": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-transport-solutions-locations.ts",
     "backfill:seo-status": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/backfill-seo-status.ts",
     "ingest:search-console": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/ingest-search-console.ts",
+    "seed:vehicle-specs": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-vehicle-specs.ts",
+    "seed:suburb-hub-pages": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/seed-suburb-hub-pages.ts",
     "migrate:p1-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p1-urls.ts",
     "migrate:p2-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p2-urls.ts",
     "migrate:p3-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p3-urls.ts"
