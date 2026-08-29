@@ -20,7 +20,7 @@ export const Sites: CollectionConfig = {
       admin: { description: "Stable identifier the frontend passes in API queries, e.g. baby-seat." },
       options: [
         { label: "Baby Seat Taxi Sydney", value: "baby-seat" },
-        { label: "Transport Solutions Sydney", value: "transport-solutions" },
+        { label: "Tiptop Maxi Sydney", value: "transport-solutions" },
         { label: "Wheelchair Taxi Sydney", value: "wheelchair" },
         { label: "Tiptopride Landing", value: "tiptopride-landing" },
       ],
