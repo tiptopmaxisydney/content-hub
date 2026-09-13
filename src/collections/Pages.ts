@@ -75,6 +75,30 @@ export const Pages: CollectionConfig = {
       ],
     },
     {
+      name: "comparisonTable",
+      type: "group",
+      admin: { description: "Optional 'us vs the alternative' feature comparison (e.g. private transfer vs airport shuttle), rendered as a table below the intro." },
+      fields: [
+        { name: "title", type: "text" },
+        { name: "columnA", type: "text", defaultValue: "TipTop Private Transfer" },
+        { name: "columnB", type: "text", defaultValue: "Alternative" },
+        {
+          name: "rows",
+          type: "array",
+          fields: [
+            { name: "feature", type: "text", required: true },
+            { name: "valueA", type: "text", required: true },
+            { name: "valueB", type: "text", required: true },
+          ],
+        },
+      ],
+    },
+    {
+      name: "operationalNotice",
+      type: "textarea",
+      admin: { description: "Short callout shown near the top of the page for time-sensitive operational caveats (e.g. a not-yet-open airport's pickup procedures still being finalised). Leave blank for none." },
+    },
+    {
       name: "faq",
       type: "array",
       fields: [
