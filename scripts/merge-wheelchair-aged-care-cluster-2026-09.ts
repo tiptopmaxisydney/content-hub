@@ -50,7 +50,7 @@ async function run() {
     limit: 1,
     depth: 0,
   });
-  const canonical = canonicalResult.docs[0] as Record<string, unknown>;
+  const canonical = canonicalResult.docs[0] as unknown as Record<string, unknown>;
   if (!canonical) throw new Error(`Canonical page "${CANONICAL_SLUG}" not found.`);
 
   type TextItem = { text: string };
