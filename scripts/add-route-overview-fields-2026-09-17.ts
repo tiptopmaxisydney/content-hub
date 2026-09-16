@@ -213,7 +213,11 @@ async function run() {
       continue;
     }
 
-    await payload.update({ collection: "pages", id: doc.id, data: { routeDetails } });
+    // routeDetails is newer than most local payload-types.ts snapshots (gitignored, regenerated
+    // per-machine via `npm run generate:types`) - cast like seedUtils.upsertBySlug does, so a
+    // stale local type snapshot doesn't fail `next build`'s typecheck on this one-off script.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await payload.update({ collection: "pages", id: doc.id, data: { routeDetails } as any });
     console.log(`  [${slug}] routeDetails set.`);
   }
 
