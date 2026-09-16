@@ -45,6 +45,39 @@ export const Pages: CollectionConfig = {
       { name: "metaDescription", type: "textarea", required: true },
     ]},
 
+    {
+      name: "routeDetails",
+      type: "group",
+      admin: {
+        description:
+          "Structured origin/destination route facts for Airport <-> Suburb route pages (e.g. /sydney-airport-transfers/<suburb>/). Optional - leave blank for pages that aren't a specific route. Rendered as a 'Route Overview' fact block near the top of the page.",
+      },
+      fields: [
+        { name: "originLabel", type: "text", defaultValue: "Sydney Airport" },
+        { name: "destinationSuburb", type: "text" },
+        { name: "destinationState", type: "text", defaultValue: "NSW" },
+        { name: "destinationPostcode", type: "text" },
+        { name: "region", type: "text", admin: { description: "e.g. Northern Sydney, Eastern Suburbs" } },
+        { name: "distanceKm", type: "text", admin: { description: "Qualify as approximate, e.g. \"approximately 22km\" - never a bare number presented as exact." } },
+        { name: "travelTime", type: "text", admin: { description: "Qualify as approximate/traffic-dependent, e.g. \"typically 30-45 minutes, longer during peak hour\" - never a guaranteed duration." } },
+        { name: "mainCorridor", type: "text", admin: { description: "Main route/corridor, e.g. \"via the Eastern Distributor and Epping Road\"" } },
+        { name: "tollInfo", type: "text", admin: { description: "Route-specific toll roads/crossings, if any. Avoid stating exact toll dollar amounts - note that tolls are included in the fixed fare instead." } },
+        { name: "terminals", type: "text", defaultValue: "T1 International, T2 & T3 Domestic" },
+        {
+          name: "vehicleCategories",
+          type: "array",
+          labels: { singular: "Vehicle Category", plural: "Vehicle Categories" },
+          fields: [{ name: "label", type: "text", required: true }],
+        },
+        {
+          name: "nearbySuburbs",
+          type: "array",
+          labels: { singular: "Nearby Suburb", plural: "Nearby Suburbs" },
+          fields: [{ name: "name", type: "text", required: true }],
+        },
+      ],
+    },
+
     { name: "eyebrow", type: "text" },
     { name: "h1", type: "text", required: true },
     { name: "heroDescription", type: "textarea", required: true },
