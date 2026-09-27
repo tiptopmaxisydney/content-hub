@@ -75,6 +75,44 @@ export const Pages: CollectionConfig = {
           labels: { singular: "Nearby Suburb", plural: "Nearby Suburbs" },
           fields: [{ name: "name", type: "text", required: true }],
         },
+        {
+          name: "direction",
+          type: "select",
+          defaultValue: "both",
+          options: [
+            { label: "Both directions", value: "both" },
+            { label: "Airport → destination only", value: "fromAirport" },
+            { label: "Destination → airport only", value: "toAirport" },
+          ],
+        },
+        { name: "wheelchairAvailable", type: "checkbox", defaultValue: true },
+        { name: "babySeatAvailable", type: "checkbox", defaultValue: true },
+        { name: "flightMonitoring", type: "checkbox", defaultValue: true },
+        { name: "serviceAvailability", type: "text", admin: { description: "e.g. \"24/7, including early-morning and late-night flights\"" } },
+        // Destination-specific narrative. When arrivalGuide is filled in, the frontend renders the
+        // full Airport -> Destination route template (both directions, terminals, vehicles,
+        // accessibility, early-morning, nearby suburbs) instead of just contentSections. Write
+        // these per destination - never a find-and-replace of another suburb's copy.
+        {
+          name: "arrivalGuide",
+          type: "textarea",
+          admin: { description: "Airport -> destination: what's specific about arriving into this suburb (drop-off logistics, local roads, building access)." },
+        },
+        {
+          name: "departureGuide",
+          type: "textarea",
+          admin: { description: "Destination -> airport: pickup timing and local traffic specifics for departing from this suburb." },
+        },
+        {
+          name: "earlyMorningNotes",
+          type: "textarea",
+          admin: { description: "Early-morning departures from this suburb: typical leave times and why." },
+        },
+        {
+          name: "vehicleNotes",
+          type: "textarea",
+          admin: { description: "Destination-specific vehicle guidance (who typically travels this route, parking/access constraints)." },
+        },
       ],
     },
 
