@@ -31,7 +31,8 @@
     "merge:wheelchair-aged-care-cluster": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/merge-wheelchair-aged-care-cluster-2026-09.ts",
     "migrate:p1-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p1-urls.ts",
     "migrate:p2-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p2-urls.ts",
-    "migrate:p3-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p3-urls.ts"
+    "migrate:p3-urls": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/migrate-p3-urls.ts",
+    "rebrand:wheelchair-transport": "cross-env DISABLE_REVALIDATE_HOOKS=true node --env-file=.env --import tsx scripts/rebrand-wheelchair-transport-2026-10.ts"
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "3.88.0",
