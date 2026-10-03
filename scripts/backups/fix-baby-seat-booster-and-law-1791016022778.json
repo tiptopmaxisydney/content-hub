@@ -1,0 +1,2652 @@
+[
+ {
+  "collection": "pages",
+  "id": "6a834c0d599a948fa8d3802b",
+  "slug": "baby-seat-taxi-bondi",
+  "original": {
+   "metaTitle": "Baby Seat Taxi Bondi | Safe Capsule & Child Seats",
+   "metaDescription": "Baby Seat Taxi Bondi - baby capsules, child seats and booster seats arranged at booking for Bondi Beach, Bondi Junction and the Eastern Suburbs.",
+   "h1": "Professional Baby Seat Taxi Services in Bondi",
+   "heroDescription": "Pre-booked family transport across Bondi and the Eastern Suburbs, with baby capsules, child restraints and booster seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834edf6bbc254024ce740f"
+    },
+    {
+     "text": "We service central Bondi - Bondi Beach, Bondi Junction, Oxford Street, Waverley, Tamarama - and the greater Eastern Suburbs including Coogee, Bronte, Double Bay, Woollahra and Rose Bay. Need transport beyond Bondi? We operate metro-wide.",
+     "id": "6a834edf6bbc254024ce7410"
+    }
+   ],
+   "introItemsIntro": "Perfect for Bondi families:",
+   "introItems": [
+    {
+     "text": "Newborn hospital discharge - safe first journey home from RPA or St Vincent's",
+     "id": "6a834edf6bbc254024ce7411"
+    },
+    {
+     "text": "Beach days - Bondi Beach to Tamarama and Coogee with properly secured kids",
+     "id": "6a834edf6bbc254024ce7412"
+    },
+    {
+     "text": "Medical appointments and childcare & preschool runs",
+     "id": "6a834edf6bbc254024ce7413"
+    },
+    {
+     "text": "Oxford Street and Westfield Bondi shopping",
+     "id": "6a834edf6bbc254024ce7414"
+    },
+    {
+     "text": "Sydney Airport transfers",
+     "id": "6a834edf6bbc254024ce7415"
+    },
+    {
+     "text": "CBD commutes with children safely cared for",
+     "id": "6a834edf6bbc254024ce7416"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834edf6bbc254024ce7417"
+    },
+    {
+     "title": "Toddler / Child Restraints & Boosters",
+     "description": "Child restraints arranged according to your child's age and size, plus booster seats for older children where appropriate.",
+     "id": "6a834edf6bbc254024ce7418"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834edf6bbc254024ce7419"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own baby seat or capsule?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834edf6bbc254024ce741a"
+    },
+    {
+     "question": "Can I use my own child seat?",
+     "answer": "Yes. You're welcome to use your own approved child restraint if you prefer.",
+     "id": "6a834edf6bbc254024ce741b"
+    },
+    {
+     "question": "Do you operate 24/7 in Bondi?",
+     "answer": "Yes, we're available for scheduled and on-demand journeys around the clock, including early morning and evening availability.",
+     "id": "6a834edf6bbc254024ce741c"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi Bondi | Safe Capsule & Child Seats",
+   "metaDescription": "Baby Seat Taxi Bondi - baby capsules and child seats arranged at booking for Bondi Beach, Bondi Junction and the Eastern Suburbs.",
+   "h1": "Professional Baby Seat Taxi Services in Bondi",
+   "heroDescription": "Pre-booked family transport across Bondi and the Eastern Suburbs, with baby capsules and child seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834edf6bbc254024ce740f"
+    },
+    {
+     "text": "We service central Bondi - Bondi Beach, Bondi Junction, Oxford Street, Waverley, Tamarama - and the greater Eastern Suburbs including Coogee, Bronte, Double Bay, Woollahra and Rose Bay. Need transport beyond Bondi? We operate metro-wide.",
+     "id": "6a834edf6bbc254024ce7410"
+    }
+   ],
+   "introItemsIntro": "Perfect for Bondi families:",
+   "introItems": [
+    {
+     "text": "Newborn hospital discharge - safe first journey home from RPA or St Vincent's",
+     "id": "6a834edf6bbc254024ce7411"
+    },
+    {
+     "text": "Beach days - Bondi Beach to Tamarama and Coogee with properly secured kids",
+     "id": "6a834edf6bbc254024ce7412"
+    },
+    {
+     "text": "Medical appointments and childcare & preschool runs",
+     "id": "6a834edf6bbc254024ce7413"
+    },
+    {
+     "text": "Oxford Street and Westfield Bondi shopping",
+     "id": "6a834edf6bbc254024ce7414"
+    },
+    {
+     "text": "Sydney Airport transfers",
+     "id": "6a834edf6bbc254024ce7415"
+    },
+    {
+     "text": "CBD commutes with children safely cared for",
+     "id": "6a834edf6bbc254024ce7416"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834edf6bbc254024ce7417"
+    },
+    {
+     "title": "Toddler / Child Restraints",
+     "description": "Child restraints arranged according to your child's age and size, including forward-facing restraints with an inbuilt harness.",
+     "id": "6a834edf6bbc254024ce7418"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834edf6bbc254024ce7419"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own baby seat or capsule?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834edf6bbc254024ce741a"
+    },
+    {
+     "question": "Can I use my own child seat?",
+     "answer": "Yes. You're welcome to use your own approved child restraint if you prefer.",
+     "id": "6a834edf6bbc254024ce741b"
+    },
+    {
+     "question": "Do you operate 24/7 in Bondi?",
+     "answer": "Yes, we're available for scheduled and on-demand journeys around the clock, including early morning and evening availability.",
+     "id": "6a834edf6bbc254024ce741c"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834c08599a948fa8d3801f",
+  "slug": "baby-seat-taxi-chatswood",
+  "original": {
+   "metaTitle": "Baby Seat Taxi Chatswood | Safe Capsule & Child Seats",
+   "metaDescription": "Baby Seat Taxi Chatswood - baby capsules, child seats and booster seats arranged at booking, with North Shore coverage from Chatswood.",
+   "h1": "Professional Baby Seat Taxi Services in Chatswood",
+   "heroDescription": "Pre-booked family transport across the North Shore, with baby capsules, child restraints and booster seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834edb6bbc254024ce7401"
+    },
+    {
+     "text": "We service central Chatswood - CBD, Shopping Centre District, Willoughby - and the greater Chatswood region including Lane Cove, Artarmon, St Leonards, Crows Nest, Neutral Bay and Mosman. Need transport beyond the North Shore? We operate metro-wide.",
+     "id": "6a834edb6bbc254024ce7402"
+    }
+   ],
+   "introItemsIntro": "Perfect for Chatswood families:",
+   "introItems": [
+    {
+     "text": "Newborn hospital discharge - first journey home with a rear-facing restraint arranged at booking",
+     "id": "6a834edb6bbc254024ce7403"
+    },
+    {
+     "text": "Medical appointments - paediatrician visits and specialist consultations",
+     "id": "6a834edb6bbc254024ce7404"
+    },
+    {
+     "text": "Childcare & school runs",
+     "id": "6a834edb6bbc254024ce7405"
+    },
+    {
+     "text": "Chatswood Chase and Macquarie Centre shopping visits with kids",
+     "id": "6a834edb6bbc254024ce7406"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834edb6bbc254024ce7407"
+    },
+    {
+     "text": "CBD commutes with children safely cared for",
+     "id": "6a834edb6bbc254024ce7408"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834edb6bbc254024ce7409"
+    },
+    {
+     "title": "Toddler / Child Restraints & Boosters",
+     "description": "Child restraints arranged according to your child's age and size, plus booster seats for older children where appropriate.",
+     "id": "6a834edb6bbc254024ce740a"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834edb6bbc254024ce740b"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own baby seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834edb6bbc254024ce740c"
+    },
+    {
+     "question": "Can I use Baby Seat Taxi for longer trips outside Chatswood?",
+     "answer": "Yes, we operate metro-wide with fully equipped vehicles serving all Sydney areas.",
+     "id": "6a834edb6bbc254024ce740d"
+    },
+    {
+     "question": "What do you need to know about my children?",
+     "answer": "Each child's age and approximate size, so we can arrange an appropriate restraint - plus the number of adults, luggage and any pram.",
+     "id": "6a834edb6bbc254024ce740e"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi Chatswood | Safe Capsule & Child Seats",
+   "metaDescription": "Baby Seat Taxi Chatswood - baby capsules and child seats arranged at booking, with North Shore coverage from Chatswood.",
+   "h1": "Professional Baby Seat Taxi Services in Chatswood",
+   "heroDescription": "Pre-booked family transport across the North Shore, with baby capsules and child seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834edb6bbc254024ce7401"
+    },
+    {
+     "text": "We service central Chatswood - CBD, Shopping Centre District, Willoughby - and the greater Chatswood region including Lane Cove, Artarmon, St Leonards, Crows Nest, Neutral Bay and Mosman. Need transport beyond the North Shore? We operate metro-wide.",
+     "id": "6a834edb6bbc254024ce7402"
+    }
+   ],
+   "introItemsIntro": "Perfect for Chatswood families:",
+   "introItems": [
+    {
+     "text": "Newborn hospital discharge - first journey home with a rear-facing restraint arranged at booking",
+     "id": "6a834edb6bbc254024ce7403"
+    },
+    {
+     "text": "Medical appointments - paediatrician visits and specialist consultations",
+     "id": "6a834edb6bbc254024ce7404"
+    },
+    {
+     "text": "Childcare & school runs",
+     "id": "6a834edb6bbc254024ce7405"
+    },
+    {
+     "text": "Chatswood Chase and Macquarie Centre shopping visits with kids",
+     "id": "6a834edb6bbc254024ce7406"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834edb6bbc254024ce7407"
+    },
+    {
+     "text": "CBD commutes with children safely cared for",
+     "id": "6a834edb6bbc254024ce7408"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834edb6bbc254024ce7409"
+    },
+    {
+     "title": "Toddler / Child Restraints",
+     "description": "Child restraints arranged according to your child's age and size, including forward-facing restraints with an inbuilt harness.",
+     "id": "6a834edb6bbc254024ce740a"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834edb6bbc254024ce740b"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own baby seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834edb6bbc254024ce740c"
+    },
+    {
+     "question": "Can I use Baby Seat Taxi for longer trips outside Chatswood?",
+     "answer": "Yes, we operate metro-wide with fully equipped vehicles serving all Sydney areas.",
+     "id": "6a834edb6bbc254024ce740d"
+    },
+    {
+     "question": "What do you need to know about my children?",
+     "answer": "Each child's age and approximate size, so we can arrange an appropriate restraint - plus the number of adults, luggage and any pram.",
+     "id": "6a834edb6bbc254024ce740e"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834c00599a948fa8d38013",
+  "slug": "baby-seat-taxi-campbelltown",
+  "original": {
+   "metaTitle": "Baby Seat Taxi Campbelltown | Safe Child Car Seats",
+   "metaDescription": "Baby Seat Taxi Campbelltown - baby capsules, child seats and booster seats arranged at booking, with metro-wide coverage from Campbelltown.",
+   "h1": "Professional Baby Seat Taxi Services in Campbelltown",
+   "heroDescription": "Pre-booked family transport from Campbelltown, with baby capsules, child restraints and booster seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ed76bbc254024ce73f3"
+    },
+    {
+     "text": "Our service extends throughout inner Campbelltown - CBD, Bradbury, Airds, Leumeah, Englefield - and the greater Campbelltown region including Minto, Narellan, Camden and Picton. Need a ride from Campbelltown to other Sydney areas? We operate metro-wide with fully equipped vehicles.",
+     "id": "6a834ed76bbc254024ce73f4"
+    }
+   ],
+   "introItemsIntro": "Perfect for Campbelltown families:",
+   "introItems": [
+    {
+     "text": "Hospital trips - safe transportation for newborns from hospital to home",
+     "id": "6a834ed76bbc254024ce73f5"
+    },
+    {
+     "text": "Doctor appointments",
+     "id": "6a834ed76bbc254024ce73f6"
+    },
+    {
+     "text": "Childcare & school runs",
+     "id": "6a834ed76bbc254024ce73f7"
+    },
+    {
+     "text": "Family days out - shopping, parks and activities across Sydney",
+     "id": "6a834ed76bbc254024ce73f8"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834ed76bbc254024ce73f9"
+    },
+    {
+     "text": "Emergency situations - when your car isn't available",
+     "id": "6a834ed76bbc254024ce73fa"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834ed76bbc254024ce73fb"
+    },
+    {
+     "title": "Toddler / Child Restraints & Boosters",
+     "description": "Child restraints arranged according to your child's age and size, plus booster seats for older children where appropriate.",
+     "id": "6a834ed76bbc254024ce73fc"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834ed76bbc254024ce73fd"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own child seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ed76bbc254024ce73fe"
+    },
+    {
+     "question": "Can I use Baby Seat Taxi for long-distance trips from Campbelltown?",
+     "answer": "Yes, we operate metro-wide with fully equipped vehicles for trips beyond Campbelltown.",
+     "id": "6a834ed76bbc254024ce73ff"
+    },
+    {
+     "question": "Is your service available 24/7?",
+     "answer": "Yes, our Campbelltown service is available 24 hours a day for both scheduled and on-demand journeys.",
+     "id": "6a834ed76bbc254024ce7400"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi Campbelltown | Safe Child Car Seats",
+   "metaDescription": "Baby Seat Taxi Campbelltown - baby capsules and child seats arranged at booking, with metro-wide coverage from Campbelltown.",
+   "h1": "Professional Baby Seat Taxi Services in Campbelltown",
+   "heroDescription": "Pre-booked family transport from Campbelltown, with baby capsules and child seats arranged for your booking.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ed76bbc254024ce73f3"
+    },
+    {
+     "text": "Our service extends throughout inner Campbelltown - CBD, Bradbury, Airds, Leumeah, Englefield - and the greater Campbelltown region including Minto, Narellan, Camden and Picton. Need a ride from Campbelltown to other Sydney areas? We operate metro-wide with fully equipped vehicles.",
+     "id": "6a834ed76bbc254024ce73f4"
+    }
+   ],
+   "introItemsIntro": "Perfect for Campbelltown families:",
+   "introItems": [
+    {
+     "text": "Hospital trips - safe transportation for newborns from hospital to home",
+     "id": "6a834ed76bbc254024ce73f5"
+    },
+    {
+     "text": "Doctor appointments",
+     "id": "6a834ed76bbc254024ce73f6"
+    },
+    {
+     "text": "Childcare & school runs",
+     "id": "6a834ed76bbc254024ce73f7"
+    },
+    {
+     "text": "Family days out - shopping, parks and activities across Sydney",
+     "id": "6a834ed76bbc254024ce73f8"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834ed76bbc254024ce73f9"
+    },
+    {
+     "text": "Emergency situations - when your car isn't available",
+     "id": "6a834ed76bbc254024ce73fa"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834ed76bbc254024ce73fb"
+    },
+    {
+     "title": "Toddler / Child Restraints",
+     "description": "Child restraints arranged according to your child's age and size, including forward-facing restraints with an inbuilt harness.",
+     "id": "6a834ed76bbc254024ce73fc"
+    },
+    {
+     "title": "Planned Around Your Family",
+     "description": "Passengers, child restraints, prams and luggage are recorded at booking so the vehicle suits your family.",
+     "id": "6a834ed76bbc254024ce73fd"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to provide my own child seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ed76bbc254024ce73fe"
+    },
+    {
+     "question": "Can I use Baby Seat Taxi for long-distance trips from Campbelltown?",
+     "answer": "Yes, we operate metro-wide with fully equipped vehicles for trips beyond Campbelltown.",
+     "id": "6a834ed76bbc254024ce73ff"
+    },
+    {
+     "question": "Is your service available 24/7?",
+     "answer": "Yes, our Campbelltown service is available 24 hours a day for both scheduled and on-demand journeys.",
+     "id": "6a834ed76bbc254024ce7400"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834be9599a948fa8d37fea",
+  "slug": "baby-seat-taxi-blacktown",
+  "original": {
+   "metaTitle": "Baby Seat Taxi Blacktown | Safe Family Rides 24/7",
+   "metaDescription": "Baby Seat Taxi Blacktown - child restraints arranged at booking, fixed fares and 24/7 availability for Blacktown Hospital, Sydney Airport and family trips across the Blacktown LGA.",
+   "h1": "Baby Seat Taxi Blacktown - Child Seats Arranged for Every Booking",
+   "heroDescription": "Blacktown is one of Western Sydney's biggest and most family-focused suburbs. Baby Seat Taxi Sydney covers Blacktown and the surrounding suburbs with child restraints arranged at booking to suit your child's age and size.",
+   "intro": [
+    {
+     "text": "Standard cabs and rideshare apps don't guarantee a child restraint for your journey. With us, you request the restraint when you book, so it's arranged before pickup.",
+     "id": "6a834ecb6bbc254024ce73c9"
+    },
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ecb6bbc254024ce73ca"
+    }
+   ],
+   "introItemsIntro": "Where we take Blacktown families:",
+   "introItems": [
+    {
+     "text": "Blacktown to Sydney Airport and Western Sydney Airport, with return pickups available",
+     "id": "6a834ecb6bbc254024ce73cb"
+    },
+    {
+     "text": "Blacktown Hospital and Westmead Hospital transfers and medical appointments",
+     "id": "6a834ecb6bbc254024ce73cc"
+    },
+    {
+     "text": "School runs and childcare pickups across the Blacktown LGA",
+     "id": "6a834ecb6bbc254024ce73cd"
+    },
+    {
+     "text": "Westpoint Shopping Centre and everyday suburb runs",
+     "id": "6a834ecb6bbc254024ce73ce"
+    },
+    {
+     "text": "Nurragingy Reserve and family days out",
+     "id": "6a834ecb6bbc254024ce73cf"
+    },
+    {
+     "text": "Cruise terminal transfers from Blacktown",
+     "id": "6a834ecb6bbc254024ce73d0"
+    }
+   ],
+   "features": [
+    {
+     "title": "The Correct Seat Is Always in the Vehicle",
+     "description": "Tell us your child's age and weight at booking and we match the right restraint - infant capsule, rear-facing seat or forward-facing harness.",
+     "id": "6a834ecb6bbc254024ce73d1"
+    },
+    {
+     "title": "Requirements Recorded at Booking",
+     "description": "Each child's restraint requirements are recorded against your booking so the vehicle is prepared before pickup.",
+     "id": "6a834ecb6bbc254024ce73d2"
+    },
+    {
+     "title": "Fixed Fares, Available Around the Clock",
+     "description": "A quoted fare upfront with no surge pricing, plus 24/7 availability including weekends and public holidays.",
+     "id": "6a834ecb6bbc254024ce73d3"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to bring my own car seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ecb6bbc254024ce73d4"
+    },
+    {
+     "question": "Do you service suburbs around Blacktown?",
+     "answer": "Yes. We regularly cover Seven Hills, Toongabbie, Quakers Hill, Doonside, Rooty Hill, Kings Langley, Marayong and the wider Blacktown LGA.",
+     "id": "6a834ecb6bbc254024ce73d5"
+    },
+    {
+     "question": "Do you travel from Blacktown to Sydney Airport?",
+     "answer": "Yes, we do this run regularly, with the correct seats fitted and return pickups available if you book both legs at once.",
+     "id": "6a834ecb6bbc254024ce73d6"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi Blacktown | Safe Family Rides 24/7",
+   "metaDescription": "Baby Seat Taxi Blacktown - child restraints arranged at booking, fixed fares and 24/7 availability for Blacktown Hospital, Sydney Airport and family trips across the Blacktown LGA.",
+   "h1": "Baby Seat Taxi Blacktown - Child Seats Arranged for Every Booking",
+   "heroDescription": "Blacktown is one of Western Sydney's biggest and most family-focused suburbs. Baby Seat Taxi Sydney covers Blacktown and the surrounding suburbs with child restraints arranged at booking to suit your child's age and size.",
+   "intro": [
+    {
+     "text": "Standard cabs and rideshare apps don't guarantee a child restraint for your journey. With us, you request the restraint when you book, so it's arranged before pickup.",
+     "id": "6a834ecb6bbc254024ce73c9"
+    },
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ecb6bbc254024ce73ca"
+    }
+   ],
+   "introItemsIntro": "Where we take Blacktown families:",
+   "introItems": [
+    {
+     "text": "Blacktown to Sydney Airport, and to Western Sydney International Airport for travel from 25 October 2026 - book both legs together",
+     "id": "6a834ecb6bbc254024ce73cb"
+    },
+    {
+     "text": "Blacktown Hospital and Westmead Hospital transfers and medical appointments",
+     "id": "6a834ecb6bbc254024ce73cc"
+    },
+    {
+     "text": "School runs and childcare pickups across the Blacktown LGA",
+     "id": "6a834ecb6bbc254024ce73cd"
+    },
+    {
+     "text": "Westpoint Shopping Centre and everyday suburb runs",
+     "id": "6a834ecb6bbc254024ce73ce"
+    },
+    {
+     "text": "Nurragingy Reserve and family days out",
+     "id": "6a834ecb6bbc254024ce73cf"
+    },
+    {
+     "text": "Cruise terminal transfers from Blacktown",
+     "id": "6a834ecb6bbc254024ce73d0"
+    }
+   ],
+   "features": [
+    {
+     "title": "The Correct Seat Is Always in the Vehicle",
+     "description": "Tell us your child's age and weight at booking and we match the right restraint - infant capsule, rear-facing seat or forward-facing harness.",
+     "id": "6a834ecb6bbc254024ce73d1"
+    },
+    {
+     "title": "Requirements Recorded at Booking",
+     "description": "Each child's restraint requirements are recorded against your booking so the vehicle is prepared before pickup.",
+     "id": "6a834ecb6bbc254024ce73d2"
+    },
+    {
+     "title": "Fixed Fares, Available Around the Clock",
+     "description": "A quoted fare upfront with no surge pricing, plus 24/7 availability including weekends and public holidays.",
+     "id": "6a834ecb6bbc254024ce73d3"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to bring my own car seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ecb6bbc254024ce73d4"
+    },
+    {
+     "question": "Do you service suburbs around Blacktown?",
+     "answer": "Yes. We regularly cover Seven Hills, Toongabbie, Quakers Hill, Doonside, Rooty Hill, Kings Langley, Marayong and the wider Blacktown LGA.",
+     "id": "6a834ecb6bbc254024ce73d5"
+    },
+    {
+     "question": "Do you travel from Blacktown to Sydney Airport?",
+     "answer": "Yes. Child restraints are requested when booking and prepared according to the confirmed journey requirements. You can book the return leg at the same time.",
+     "id": "6a834ecb6bbc254024ce73d6"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834be5599a948fa8d37fde",
+  "slug": "baby-seat-taxi-parramatta",
+  "original": {
+   "metaTitle": "Baby Seat Taxi Parramatta | Airport, Hospital & Family Transfers",
+   "metaDescription": "Baby Seat Taxi Parramatta - child restraints arranged at booking, fixed prices and 24/7 availability for Westmead Hospital, Sydney Airport and family trips.",
+   "h1": "Baby Seat Taxi Parramatta - Safe, Reliable Rides for Your Little Ones",
+   "heroDescription": "Travelling around Parramatta with a baby or young child shouldn't feel like a logistical puzzle. Whether you're heading to Westmead Hospital, catching a flight from Sydney Airport, or just need a dependable school run, Baby Seat Taxi Sydney has Parramatta covered.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when you book and the requested child restraint is arranged for your trip. You don't need to bring your own seat - though you're welcome to.",
+     "id": "6a834ec86bbc254024ce73ba"
+    },
+    {
+     "text": "There's no shortage of taxi and rideshare options in Parramatta, but most of them aren't set up for families travelling with babies and young children. A standard rideshare doesn't come with a fitted car seat, and a regular cab can't guarantee the right restraint for your newborn. That's exactly the gap we fill.",
+     "id": "6a834ec86bbc254024ce73bb"
+    },
+    {
+     "text": "We arrange rear-facing restraints for babies, child restraints for toddlers and booster seats for older children, based on each child's age and approximate size.",
+     "id": "6a834ec86bbc254024ce73bc"
+    }
+   ],
+   "introItemsIntro": "Where we take Parramatta families:",
+   "introItems": [
+    {
+     "text": "Airport transfers - Parramatta to Sydney Airport, with return pickups available",
+     "id": "6a834ec86bbc254024ce73bd"
+    },
+    {
+     "text": "Westmead Hospital and Westmead Children's Hospital transfers and medical appointments",
+     "id": "6a834ec86bbc254024ce73be"
+    },
+    {
+     "text": "School runs and childcare drop-offs",
+     "id": "6a834ec86bbc254024ce73bf"
+    },
+    {
+     "text": "Westfield Parramatta and everyday errands",
+     "id": "6a834ec86bbc254024ce73c0"
+    },
+    {
+     "text": "Events and family outings",
+     "id": "6a834ec86bbc254024ce73c1"
+    },
+    {
+     "text": "Cruise terminal transfers from Parramatta",
+     "id": "6a834ec86bbc254024ce73c2"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints Arranged at Booking",
+     "description": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ec86bbc254024ce73c3"
+    },
+    {
+     "title": "Fixed Prices - No Surprises",
+     "description": "The fare you're quoted is the fare you pay. No surge pricing, no metered guesswork, no awkward moment at the end of the trip.",
+     "id": "6a834ec86bbc254024ce73c4"
+    },
+    {
+     "title": "24/7 Availability",
+     "description": "Whether it's a 3am hospital run or a 6am airport pickup, we're on the road - early morning, late night and public holidays.",
+     "id": "6a834ec86bbc254024ce73c5"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to bring my own baby seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ec86bbc254024ce73c6"
+    },
+    {
+     "question": "Do you service suburbs near Parramatta?",
+     "answer": "Yes. We regularly cover Rydalmere, Merrylands, Granville and the surrounding suburbs alongside Parramatta itself.",
+     "id": "6a834ec86bbc254024ce73c7"
+    },
+    {
+     "question": "Do you do airport runs from Parramatta?",
+     "answer": "Yes, we do Parramatta to Sydney Airport runs regularly, with return pickups available so you can book both legs in one go.",
+     "id": "6a834ec86bbc254024ce73c8"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi Parramatta | Airport, Hospital & Family Transfers",
+   "metaDescription": "Baby Seat Taxi Parramatta - child restraints arranged at booking, fixed prices and 24/7 availability for Westmead Hospital, Sydney Airport and family trips.",
+   "h1": "Baby Seat Taxi Parramatta - Safe, Reliable Rides for Your Little Ones",
+   "heroDescription": "Travelling around Parramatta with a baby or young child shouldn't feel like a logistical puzzle. Whether you're heading to Westmead Hospital, catching a flight from Sydney Airport, or just need a dependable school run, Baby Seat Taxi Sydney has Parramatta covered.",
+   "intro": [
+    {
+     "text": "Tell us each child's age and approximate size when you book and the requested child restraint is arranged for your trip. You don't need to bring your own seat - though you're welcome to.",
+     "id": "6a834ec86bbc254024ce73ba"
+    },
+    {
+     "text": "There's no shortage of taxi and rideshare options in Parramatta, but most of them aren't set up for families travelling with babies and young children. A standard rideshare doesn't come with a fitted car seat, and a regular cab can't guarantee the right restraint for your newborn. That's exactly the gap we fill.",
+     "id": "6a834ec86bbc254024ce73bb"
+    },
+    {
+     "text": "We arrange rear-facing restraints for babies and child seats for toddlers and young children, based on each child's age and approximate size.",
+     "id": "6a834ec86bbc254024ce73bc"
+    }
+   ],
+   "introItemsIntro": "Where we take Parramatta families:",
+   "introItems": [
+    {
+     "text": "Airport transfers - Parramatta to Sydney Airport, with return pickups available",
+     "id": "6a834ec86bbc254024ce73bd"
+    },
+    {
+     "text": "Westmead Hospital and Westmead Children's Hospital transfers and medical appointments",
+     "id": "6a834ec86bbc254024ce73be"
+    },
+    {
+     "text": "School runs and childcare drop-offs",
+     "id": "6a834ec86bbc254024ce73bf"
+    },
+    {
+     "text": "Westfield Parramatta and everyday errands",
+     "id": "6a834ec86bbc254024ce73c0"
+    },
+    {
+     "text": "Events and family outings",
+     "id": "6a834ec86bbc254024ce73c1"
+    },
+    {
+     "text": "Cruise terminal transfers from Parramatta",
+     "id": "6a834ec86bbc254024ce73c2"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints Arranged at Booking",
+     "description": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ec86bbc254024ce73c3"
+    },
+    {
+     "title": "Fixed Prices - No Surprises",
+     "description": "The fare you're quoted is the fare you pay. No surge pricing, no metered guesswork, no awkward moment at the end of the trip.",
+     "id": "6a834ec86bbc254024ce73c4"
+    },
+    {
+     "title": "24/7 Availability",
+     "description": "Whether it's a 3am hospital run or a 6am airport pickup, we're on the road - early morning, late night and public holidays.",
+     "id": "6a834ec86bbc254024ce73c5"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to bring my own baby seat?",
+     "answer": "No. Request a child restraint when you book - tell us each child's age and approximate size and an appropriate restraint will be arranged for your trip. You're also welcome to use your own approved restraint.",
+     "id": "6a834ec86bbc254024ce73c6"
+    },
+    {
+     "question": "Do you service suburbs near Parramatta?",
+     "answer": "Yes. We regularly cover Rydalmere, Merrylands, Granville and the surrounding suburbs alongside Parramatta itself.",
+     "id": "6a834ec86bbc254024ce73c7"
+    },
+    {
+     "question": "Do you do airport runs from Parramatta?",
+     "answer": "Yes, we do Parramatta to Sydney Airport runs regularly, with return pickups available so you can book both legs in one go.",
+     "id": "6a834ec86bbc254024ce73c8"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834be1599a948fa8d37fd2",
+  "slug": "baby-seat-taxi-sydney-airport",
+  "original": {
+   "metaTitle": "Baby Seat Taxi to Sydney Airport | Family Airport Transfers Sydney",
+   "metaDescription": "Stress-free Sydney Airport transfers for families travelling with children, with baby capsules, child seats and booster seats arranged at booking.",
+   "h1": "Stress Free Airport Transfers for Families Travelling with Children",
+   "heroDescription": "Getting to the airport with young children can be one of the most challenging parts of any trip — tell us who's travelling and we'll arrange the child restraints and a vehicle with room for your luggage and pram.",
+   "intro": [
+    {
+     "text": "Getting to the airport with young children can be one of the most challenging parts of any trip. Between luggage, prams, travel documents and keeping children comfortable, parents need reliable transport they can trust.",
+     "id": "6a834ec46bbc254024ce73a8"
+    },
+    {
+     "text": "Our Sydney Airport baby seat taxi service is specifically designed for families travelling with infants, toddlers and young children. Baby capsules, child seats and booster seats are arranged at booking, with each child's restraint requirements recorded against your trip.",
+     "id": "6a834ec46bbc254024ce73a9"
+    }
+   ],
+   "introItemsIntro": "We help with:",
+   "introItems": [
+    {
+     "text": "Airport luggage",
+     "id": "6a834ec46bbc254024ce73aa"
+    },
+    {
+     "text": "Prams and strollers",
+     "id": "6a834ec46bbc254024ce73ab"
+    },
+    {
+     "text": "Multiple child seats",
+     "id": "6a834ec46bbc254024ce73ac"
+    },
+    {
+     "text": "Early morning departures",
+     "id": "6a834ec46bbc254024ce73ad"
+    },
+    {
+     "text": "Late-night arrivals",
+     "id": "6a834ec46bbc254024ce73ae"
+    },
+    {
+     "text": "International travel",
+     "id": "6a834ec46bbc254024ce73af"
+    },
+    {
+     "text": "Domestic travel",
+     "id": "6a834ec46bbc254024ce73b0"
+    },
+    {
+     "text": "Group family transfers",
+     "id": "6a834ec46bbc254024ce73b1"
+    }
+   ],
+   "features": [
+    {
+     "title": "Door-to-Terminal Airport Service",
+     "description": "Our drivers pick you up directly from your home, hotel or accommodation and transport your family safely to Sydney Airport — no parking fees, no shuttle waiting, child seats ready before pickup.",
+     "id": "6a834ec46bbc254024ce73b2"
+    },
+    {
+     "title": "Why Families Pre-Book",
+     "description": "Child restraint requirements recorded in advance, better planning, reduced stress, and a faster airport exit — walk out of the terminal and head directly to your waiting vehicle.",
+     "id": "6a834ec46bbc254024ce73b3"
+    },
+    {
+     "title": "Sydney-Wide Coverage",
+     "description": "Popular routes include Sydney CBD, Circular Quay, Darling Harbour, Parramatta, Blacktown, Penrith, Liverpool, Campbelltown, Chatswood and the Eastern Suburbs.",
+     "id": "6a834ec46bbc254024ce73b4"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Can I book a baby capsule for airport transfers?",
+     "answer": "Yes, baby capsules can be requested when booking.",
+     "id": "6a834ec46bbc254024ce73b5"
+    },
+    {
+     "question": "Do you provide airport pickups?",
+     "answer": "Yes, we provide both airport pickups and airport drop-offs.",
+     "id": "6a834ec46bbc254024ce73b6"
+    },
+    {
+     "question": "Can I book multiple child seats?",
+     "answer": "Yes. Request a restraint for each child - multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6a834ec46bbc254024ce73b7"
+    },
+    {
+     "question": "Do you operate early morning airport transfers?",
+     "answer": "Yes, our service is available 24 hours a day.",
+     "id": "6a834ec46bbc254024ce73b8"
+    },
+    {
+     "question": "Do you provide large vehicles for families?",
+     "answer": "Yes, larger vehicles can be arranged for families travelling with extra luggage.",
+     "id": "6a834ec46bbc254024ce73b9"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Seat Taxi to Sydney Airport | Family Airport Transfers Sydney",
+   "metaDescription": "Stress-free Sydney Airport transfers for families travelling with children, with baby capsules and child seats arranged at booking.",
+   "h1": "Stress Free Airport Transfers for Families Travelling with Children",
+   "heroDescription": "Getting to the airport with young children can be one of the most challenging parts of any trip — tell us who's travelling and we'll arrange the child restraints and a vehicle with room for your luggage and pram.",
+   "intro": [
+    {
+     "text": "Getting to the airport with young children can be one of the most challenging parts of any trip. Between luggage, prams, travel documents and keeping children comfortable, parents need reliable transport they can trust.",
+     "id": "6a834ec46bbc254024ce73a8"
+    },
+    {
+     "text": "Our Sydney Airport baby seat taxi service is specifically designed for families travelling with infants, toddlers and young children. Baby capsules and child seats are arranged at booking, with each child's restraint requirements recorded against your trip.",
+     "id": "6a834ec46bbc254024ce73a9"
+    }
+   ],
+   "introItemsIntro": "We help with:",
+   "introItems": [
+    {
+     "text": "Airport luggage",
+     "id": "6a834ec46bbc254024ce73aa"
+    },
+    {
+     "text": "Prams and strollers",
+     "id": "6a834ec46bbc254024ce73ab"
+    },
+    {
+     "text": "Multiple child seats",
+     "id": "6a834ec46bbc254024ce73ac"
+    },
+    {
+     "text": "Early morning departures",
+     "id": "6a834ec46bbc254024ce73ad"
+    },
+    {
+     "text": "Late-night arrivals",
+     "id": "6a834ec46bbc254024ce73ae"
+    },
+    {
+     "text": "International travel",
+     "id": "6a834ec46bbc254024ce73af"
+    },
+    {
+     "text": "Domestic travel",
+     "id": "6a834ec46bbc254024ce73b0"
+    },
+    {
+     "text": "Group family transfers",
+     "id": "6a834ec46bbc254024ce73b1"
+    }
+   ],
+   "features": [
+    {
+     "title": "Door-to-Terminal Airport Service",
+     "description": "Our drivers pick you up directly from your home, hotel or accommodation and transport your family safely to Sydney Airport — no parking fees, no shuttle waiting, child seats ready before pickup.",
+     "id": "6a834ec46bbc254024ce73b2"
+    },
+    {
+     "title": "Why Families Pre-Book",
+     "description": "Child restraint requirements recorded in advance, better planning, reduced stress, and a faster airport exit — walk out of the terminal and head directly to your waiting vehicle.",
+     "id": "6a834ec46bbc254024ce73b3"
+    },
+    {
+     "title": "Sydney-Wide Coverage",
+     "description": "Popular routes include Sydney CBD, Circular Quay, Darling Harbour, Parramatta, Blacktown, Penrith, Liverpool, Campbelltown, Chatswood and the Eastern Suburbs.",
+     "id": "6a834ec46bbc254024ce73b4"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Can I book a baby capsule for airport transfers?",
+     "answer": "Yes, baby capsules can be requested when booking.",
+     "id": "6a834ec46bbc254024ce73b5"
+    },
+    {
+     "question": "Do you provide airport pickups?",
+     "answer": "Yes, we provide both airport pickups and airport drop-offs.",
+     "id": "6a834ec46bbc254024ce73b6"
+    },
+    {
+     "question": "Can I book multiple child seats?",
+     "answer": "Yes. Request a restraint for each child - multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6a834ec46bbc254024ce73b7"
+    },
+    {
+     "question": "Do you operate early morning airport transfers?",
+     "answer": "Yes, our service is available 24 hours a day.",
+     "id": "6a834ec46bbc254024ce73b8"
+    },
+    {
+     "question": "Do you provide large vehicles for families?",
+     "answer": "Yes, larger vehicles can be arranged for families travelling with extra luggage.",
+     "id": "6a834ec46bbc254024ce73b9"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834bd5599a948fa8d37fc6",
+  "slug": "baby-car-seat-taxi-sydney",
+  "original": {
+   "metaTitle": "Baby Car Seat Taxi Sydney | Capsules, Child Seats & Boosters",
+   "metaDescription": "Baby Car Seat Taxi Sydney — reliable, affordable taxi and maxi taxi services with baby capsules, child car seats and boosters arranged at booking.",
+   "h1": "Baby Car Seat Taxi Sydney",
+   "heroDescription": "Finding the right baby car seat taxi in Sydney at a reliable and affordable price — baby capsules, child car seats and boosters can be arranged for your booking.",
+   "intro": [
+    {
+     "text": "What is the biggest challenge when you travel with a baby or children in Sydney? Finding the right baby car seat taxi at a reliable and affordable price. Whether you don't want to travel in your own vehicle because of traffic, or you're coming from a tiring trip, you can book our services and get an instant quote by phone or by filling in the booking form.",
+     "id": "6a834ec06bbc254024ce739a"
+    },
+    {
+     "text": "In NSW taxis, children up to 6 months must use a rear-facing child restraint, children aged 6 to 12 months must use a rear-facing restraint or a forward-facing restraint with an inbuilt harness, and children over 12 months must use a booster seat or a properly adjusted and fastened seatbelt. Booked hire and rideshare vehicles follow different rules - see our NSW taxi baby seat laws guide.",
+     "id": "6a834ec06bbc254024ce739b"
+    },
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint. Vehicles range from sedans to maxi taxis, selected around your family's passengers, child restraints and luggage.",
+     "id": "6a834ec06bbc254024ce739c"
+    }
+   ],
+   "introItemsIntro": "Related searches families use to find us:",
+   "introItems": [
+    {
+     "text": "Taxi With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce739d"
+    },
+    {
+     "text": "Baby Seat Taxi Sydney Airport",
+     "id": "6a834ec06bbc254024ce739e"
+    },
+    {
+     "text": "Book Taxi With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce739f"
+    },
+    {
+     "text": "Maxi Taxi Sydney Baby Seat",
+     "id": "6a834ec06bbc254024ce73a0"
+    },
+    {
+     "text": "Taxi Service With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce73a1"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints Arranged at Booking",
+     "description": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ec06bbc254024ce73a2"
+    },
+    {
+     "title": "Experienced, Family-Minded Drivers",
+     "description": "Drivers allow time at pickup for your child to be seated in their capsule, child seat or booster before departure.",
+     "id": "6a834ec06bbc254024ce73a3"
+    },
+    {
+     "title": "Time to Settle In",
+     "description": "Tell us about prams, luggage and the number of children when booking so enough time is allowed at pickup.",
+     "id": "6a834ec06bbc254024ce73a4"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "What restraint does my child need in a taxi in Sydney?",
+     "answer": "In NSW taxis, children up to 6 months must use a rear-facing child restraint, children aged 6 to 12 months must use a rear-facing restraint or a forward-facing restraint with an inbuilt harness, and children over 12 months must use a booster seat or a properly adjusted and fastened seatbelt. Booked hire and rideshare vehicles follow different rules - see our NSW taxi baby seat laws guide.",
+     "id": "6a834ec06bbc254024ce73a5"
+    },
+    {
+     "question": "Can I choose which restraint my child uses?",
+     "answer": "Tell us each child's age and approximate size and we'll arrange an appropriate restraint. You're also welcome to use your own approved restraint.",
+     "id": "6a834ec06bbc254024ce73a6"
+    },
+    {
+     "question": "What kind of vehicles do you use?",
+     "answer": "We arrange sedans, SUVs, 7-seat vehicles and maxi taxis depending on your family's passengers, child restraints and luggage.",
+     "id": "6a834ec06bbc254024ce73a7"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Car Seat Taxi Sydney | Baby Capsules & Child Seats",
+   "metaDescription": "Baby Car Seat Taxi Sydney — reliable, affordable taxi and maxi taxi services with baby capsules and child car seats arranged at booking.",
+   "h1": "Baby Car Seat Taxi Sydney",
+   "heroDescription": "Finding the right baby car seat taxi in Sydney at a reliable and affordable price — baby capsules and child car seats can be arranged for your booking.",
+   "intro": [
+    {
+     "text": "What is the biggest challenge when you travel with a baby or children in Sydney? Finding the right baby car seat taxi at a reliable and affordable price. Whether you don't want to travel in your own vehicle because of traffic, or you're coming from a tiring trip, you can book our services and get an instant quote by phone or by filling in the booking form.",
+     "id": "6a834ec06bbc254024ce739a"
+    },
+    {
+     "text": "In a NSW taxi, children under 12 months must be secured in a suitable approved child restraint - rear-facing up to 6 months, and rear-facing or forward-facing with an inbuilt harness from 6 to 12 months. Children over 12 months may travel wearing a properly fastened and adjusted seatbelt, although a suitable approved child restraint is strongly recommended. Hire and rideshare vehicles follow the private-vehicle rules instead - see our NSW taxi baby seat laws guide.",
+     "id": "6a834ec06bbc254024ce739b"
+    },
+    {
+     "text": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint. Vehicles range from sedans to maxi taxis, selected around your family's passengers, child restraints and luggage.",
+     "id": "6a834ec06bbc254024ce739c"
+    }
+   ],
+   "introItemsIntro": "Related searches families use to find us:",
+   "introItems": [
+    {
+     "text": "Taxi With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce739d"
+    },
+    {
+     "text": "Baby Seat Taxi Sydney Airport",
+     "id": "6a834ec06bbc254024ce739e"
+    },
+    {
+     "text": "Book Taxi With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce739f"
+    },
+    {
+     "text": "Maxi Taxi Sydney Baby Seat",
+     "id": "6a834ec06bbc254024ce73a0"
+    },
+    {
+     "text": "Taxi Service With Baby Seat Sydney",
+     "id": "6a834ec06bbc254024ce73a1"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints Arranged at Booking",
+     "description": "Tell us each child's age and approximate size when booking and we'll arrange an appropriate restraint for the journey. You're also welcome to use your own approved child restraint.",
+     "id": "6a834ec06bbc254024ce73a2"
+    },
+    {
+     "title": "Experienced, Family-Minded Drivers",
+     "description": "Drivers allow time at pickup for your child to be seated in their capsule or child seat before departure.",
+     "id": "6a834ec06bbc254024ce73a3"
+    },
+    {
+     "title": "Time to Settle In",
+     "description": "Tell us about prams, luggage and the number of children when booking so enough time is allowed at pickup.",
+     "id": "6a834ec06bbc254024ce73a4"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "What restraint does my child need in a taxi in Sydney?",
+     "answer": "In a NSW taxi, children under 12 months must be secured in a suitable approved child restraint - rear-facing up to 6 months, and rear-facing or forward-facing with an inbuilt harness from 6 to 12 months. Children over 12 months may travel wearing a properly fastened and adjusted seatbelt, although a suitable approved child restraint is strongly recommended. Hire and rideshare vehicles follow the private-vehicle rules instead - see our NSW taxi baby seat laws guide.",
+     "id": "6a834ec06bbc254024ce73a5"
+    },
+    {
+     "question": "Can I choose which restraint my child uses?",
+     "answer": "Tell us each child's age and approximate size and we'll arrange an appropriate restraint. You're also welcome to use your own approved restraint.",
+     "id": "6a834ec06bbc254024ce73a6"
+    },
+    {
+     "question": "What kind of vehicles do you use?",
+     "answer": "We arrange sedans, SUVs, 7-seat vehicles and maxi taxis depending on your family's passengers, child restraints and luggage.",
+     "id": "6a834ec06bbc254024ce73a7"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834ac07619ebc3c6c03c6f",
+  "slug": "taxi-with-baby-seat-sydney",
+  "original": {
+   "metaTitle": "Taxi With Baby Seat Sydney | Reliable & Affordable Cab Service",
+   "metaDescription": "Taxi With Baby Seat Sydney arranges baby capsules, child restraints and booster seats at booking for family transport throughout Sydney, available 24/7.",
+   "h1": "Taxi With Baby Seat Sydney",
+   "heroDescription": "Pre-booked family transport across Sydney, with the child restraint requested for your journey.",
+   "intro": [
+    {
+     "text": "Travelling with a baby or young child requires extra planning, especially when it comes to safe transportation. At Baby Seat Taxi Sydney, we arrange baby capsules, child restraints and booster seats for journeys throughout Sydney. Whether you're heading to Sydney Airport, returning home from hospital with a newborn, attending a family event, or simply travelling across the city, our family-friendly taxi service is designed to make every journey stress-free.",
+     "id": "6a834eb46bbc254024ce7367"
+    },
+    {
+     "text": "Our vehicles are available 24 hours a day, 7 days a week and can be pre-booked with the appropriate child restraint based on your child's age and size. We understand that safety is the highest priority for parents, which is why we focus on reliable service, clean vehicles, and properly fitted child restraints.",
+     "id": "6a834eb46bbc254024ce7368"
+    }
+   ],
+   "introItemsIntro": "Why choose our Taxi With Baby Seat Sydney service:",
+   "introItems": [
+    {
+     "text": "Family-Focused Transport — designed for newborns, infants, toddlers and young children",
+     "id": "6a834eb46bbc254024ce7369"
+    },
+    {
+     "text": "Child Restraints Requested at Booking — tell us each child's age and approximate size",
+     "id": "6a834eb46bbc254024ce736a"
+    },
+    {
+     "text": "Sydney-Wide Coverage — CBD, Western Sydney, Inner West, Eastern Suburbs, Northern Beaches, North Shore and surrounding areas",
+     "id": "6a834eb46bbc254024ce736b"
+    },
+    {
+     "text": "Hospital Transfers — safe transport for newborn hospital discharge and family hospital appointments",
+     "id": "6a834eb46bbc254024ce736c"
+    },
+    {
+     "text": "Sydney Airport Transfers — flight number recorded against your booking, with room for luggage and prams",
+     "id": "6a834eb46bbc254024ce736d"
+    },
+    {
+     "text": "Available 24/7 — pre-booked and last-minute bookings throughout Sydney",
+     "id": "6a834eb46bbc254024ce736e"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834eb46bbc254024ce736f"
+    },
+    {
+     "title": "Toddler / Child Restraints & Boosters",
+     "description": "Child restraints arranged according to your child's age and size, plus booster seats for older children where appropriate.",
+     "id": "6a834eb46bbc254024ce7370"
+    },
+    {
+     "title": "Child Safety Comes First",
+     "description": "Tell us each child's age and approximate size when booking so we can arrange an appropriate restraint. Advance booking is recommended.",
+     "id": "6a834eb46bbc254024ce7371"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do taxis in Sydney provide baby seats?",
+     "answer": "Most standard taxis do not carry baby seats. We specialise in providing taxis equipped with baby capsules and child seats.",
+     "id": "6a834eb46bbc254024ce7372"
+    },
+    {
+     "question": "Can I book a baby capsule for a newborn?",
+     "answer": "Yes. Rear-facing baby capsules are available for newborn babies and young infants.",
+     "id": "6a834eb46bbc254024ce7373"
+    },
+    {
+     "question": "Do you service Sydney Airport?",
+     "answer": "Yes. We provide airport transfers to and from both Sydney Domestic and International Airports.",
+     "id": "6a834eb46bbc254024ce7374"
+    },
+    {
+     "question": "How far in advance should I book?",
+     "answer": "We recommend booking as early as possible, especially during peak travel periods, although same-day bookings may be available.",
+     "id": "6a834eb46bbc254024ce7375"
+    },
+    {
+     "question": "Are your child seats professionally fitted?",
+     "answer": "Yes. All child restraints are installed and checked before your journey.",
+     "id": "6a834eb46bbc254024ce7376"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Taxi With Baby Seat Sydney | Reliable & Affordable Cab Service",
+   "metaDescription": "Taxi With Baby Seat Sydney arranges baby capsules and child seats at booking for family transport throughout Sydney, available 24/7.",
+   "h1": "Taxi With Baby Seat Sydney",
+   "heroDescription": "Pre-booked family transport across Sydney, with the child restraint requested for your journey.",
+   "intro": [
+    {
+     "text": "Travelling with a baby or young child requires extra planning, especially when it comes to safe transportation. At Baby Seat Taxi Sydney, we arrange baby capsules and child seats for journeys throughout Sydney. Whether you're heading to Sydney Airport, returning home from hospital with a newborn, attending a family event, or simply travelling across the city, our family-friendly taxi service is designed to make every journey stress-free.",
+     "id": "6a834eb46bbc254024ce7367"
+    },
+    {
+     "text": "Our vehicles are available 24 hours a day, 7 days a week and can be pre-booked with the appropriate child restraint based on your child's age and size. We understand that safety is the highest priority for parents, which is why we focus on reliable service, clean vehicles, and child restraints prepared according to your confirmed journey requirements.",
+     "id": "6a834eb46bbc254024ce7368"
+    }
+   ],
+   "introItemsIntro": "Why choose our Taxi With Baby Seat Sydney service:",
+   "introItems": [
+    {
+     "text": "Family-Focused Transport — designed for newborns, infants, toddlers and young children",
+     "id": "6a834eb46bbc254024ce7369"
+    },
+    {
+     "text": "Child Restraints Requested at Booking — tell us each child's age and approximate size",
+     "id": "6a834eb46bbc254024ce736a"
+    },
+    {
+     "text": "Sydney-Wide Coverage — CBD, Western Sydney, Inner West, Eastern Suburbs, Northern Beaches, North Shore and surrounding areas",
+     "id": "6a834eb46bbc254024ce736b"
+    },
+    {
+     "text": "Hospital Transfers — safe transport for newborn hospital discharge and family hospital appointments",
+     "id": "6a834eb46bbc254024ce736c"
+    },
+    {
+     "text": "Sydney Airport Transfers — flight number recorded against your booking, with room for luggage and prams",
+     "id": "6a834eb46bbc254024ce736d"
+    },
+    {
+     "text": "Available 24/7 — pre-booked and last-minute bookings throughout Sydney",
+     "id": "6a834eb46bbc254024ce736e"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby / Infant Restraints",
+     "description": "Rear-facing options for babies who need an appropriate rear-facing restraint, including newborns leaving hospital.",
+     "id": "6a834eb46bbc254024ce736f"
+    },
+    {
+     "title": "Toddler / Child Restraints",
+     "description": "Child restraints arranged according to your child's age and size, including forward-facing restraints with an inbuilt harness.",
+     "id": "6a834eb46bbc254024ce7370"
+    },
+    {
+     "title": "Child Safety Comes First",
+     "description": "Tell us each child's age and approximate size when booking so we can arrange an appropriate restraint. Advance booking is recommended.",
+     "id": "6a834eb46bbc254024ce7371"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do taxis in Sydney provide baby seats?",
+     "answer": "Most standard taxis do not carry baby seats. We specialise in providing taxis equipped with baby capsules and child seats.",
+     "id": "6a834eb46bbc254024ce7372"
+    },
+    {
+     "question": "Can I book a baby capsule for a newborn?",
+     "answer": "Yes. Rear-facing baby capsules are available for newborn babies and young infants.",
+     "id": "6a834eb46bbc254024ce7373"
+    },
+    {
+     "question": "Do you service Sydney Airport?",
+     "answer": "Yes. We provide airport transfers to and from both Sydney Domestic and International Airports.",
+     "id": "6a834eb46bbc254024ce7374"
+    },
+    {
+     "question": "How far in advance should I book?",
+     "answer": "We recommend booking as early as possible, especially during peak travel periods, although same-day bookings may be available.",
+     "id": "6a834eb46bbc254024ce7375"
+    },
+    {
+     "question": "How are child restraints arranged?",
+     "answer": "Child restraints are requested when booking and prepared according to the confirmed journey requirements. Tell us each child's age and approximate size when booking.",
+     "id": "6a834eb46bbc254024ce7376"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834ab57619ebc3c6c03c5d",
+  "slug": "sydney-airport-transfers-with-baby-seats",
+  "original": {
+   "metaTitle": "Sydney Airport Transfers with Baby Seats",
+   "metaDescription": "Sydney Airport Transfers with Baby Seats provides safe, comfortable and convenient family transport to and from Sydney Airport, with baby capsules and child seats available upon request.",
+   "h1": "Sydney Airport Transfers with Baby Seats",
+   "heroDescription": "Flying into or out of Sydney with children? Pre-book a transfer with baby capsules, child restraints and booster seats arranged for each child, and a vehicle sized for your luggage and pram.",
+   "intro": [
+    {
+     "text": "Flying into Sydney with children? Tell us who's travelling and what you're bringing, and we'll arrange the child restraints and a vehicle with room for your family. We cover T1 International and T2/T3 Domestic arrivals and departures, 24/7.",
+     "id": "6abea6541dfa9c58dc07d7e7"
+    },
+    {
+     "text": "Example booking: 2 adults and 2 children (an 8-month-old and a 4-year-old), 2 large suitcases, 2 carry-ons and 1 folded pram. Enter these details when booking and we'll arrange the appropriate vehicle and child restraints.",
+     "id": "6abea6541dfa9c58dc07d7e8"
+    }
+   ],
+   "introItemsIntro": "What to provide when booking:",
+   "introItems": [
+    {
+     "text": "Flight number - so the booking is associated with the correct arrival",
+     "id": "6abea6541dfa9c58dc07d7e9"
+    },
+    {
+     "text": "Number and ages of children, with approximate size",
+     "id": "6abea6541dfa9c58dc07d7ea"
+    },
+    {
+     "text": "Number of adults",
+     "id": "6abea6541dfa9c58dc07d7eb"
+    },
+    {
+     "text": "Suitcases and carry-on bags",
+     "id": "6abea6541dfa9c58dc07d7ec"
+    },
+    {
+     "text": "Pram or stroller (single or double)",
+     "id": "6abea6541dfa9c58dc07d7ed"
+    },
+    {
+     "text": "Oversized items",
+     "id": "6abea6541dfa9c58dc07d7ee"
+    },
+    {
+     "text": "Destination - home, hotel or cruise terminal",
+     "id": "6abea6541dfa9c58dc07d7ef"
+    },
+    {
+     "text": "Return flight, if you'd like to book both legs together",
+     "id": "6abea6541dfa9c58dc07d7f0"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints for Every Child",
+     "description": "Request a restraint for each child - baby, toddler or booster. Multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6abea6541dfa9c58dc07d7f1"
+    },
+    {
+     "title": "Vehicle Sized for Your Luggage",
+     "description": "Child restraints change the number of usable seats. Tell us about every suitcase and pram and we'll confirm a vehicle that fits.",
+     "id": "6abea6541dfa9c58dc07d7f2"
+    },
+    {
+     "title": "Arrivals, Departures & Return Trips",
+     "description": "Early departures, late arrivals and overnight flights - and you can book your return transfer at the same time.",
+     "id": "6abea6541dfa9c58dc07d7f3"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do you pick up from T1, T2 and T3?",
+     "answer": "Yes. We provide transfers from T1 International and T2/T3 Domestic terminals.",
+     "id": "6abea6541dfa9c58dc07d7f4"
+    },
+    {
+     "question": "What happens if my flight is delayed?",
+     "answer": "Add your flight number when booking so the booking is associated with the correct arrival, and contact us if your plans change.",
+     "id": "6abea6541dfa9c58dc07d7f5"
+    },
+    {
+     "question": "Can I book two or three child seats?",
+     "answer": "Yes. Request a restraint for each child. Multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6abea6541dfa9c58dc07d7f6"
+    },
+    {
+     "question": "Can overseas visitors book before arriving?",
+     "answer": "Yes. Book online before you travel, including the child restraints you need for your arrival.",
+     "id": "6abea6541dfa9c58dc07d7f7"
+    },
+    {
+     "question": "Can I book both airport legs together?",
+     "answer": "Yes. Many families book the arrival and return transfer at the same time.",
+     "id": "6abea6541dfa9c58dc07d7f8"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Sydney Airport Transfers with Baby Seats",
+   "metaDescription": "Sydney Airport Transfers with Baby Seats provides safe, comfortable and convenient family transport to and from Sydney Airport, with baby capsules and child seats available upon request.",
+   "h1": "Sydney Airport Transfers with Baby Seats",
+   "heroDescription": "Flying into or out of Sydney with children? Pre-book a transfer with baby capsules and child seats arranged for each child, and a vehicle sized for your luggage and pram.",
+   "intro": [
+    {
+     "text": "Flying into Sydney with children? Tell us who's travelling and what you're bringing, and we'll arrange the child restraints and a vehicle with room for your family. We cover T1 International and T2/T3 Domestic arrivals and departures, 24/7.",
+     "id": "6abea6541dfa9c58dc07d7e7"
+    },
+    {
+     "text": "Example booking: 2 adults and 2 children (an 8-month-old and a 4-year-old), 2 large suitcases, 2 carry-ons and 1 folded pram. Enter these details when booking and we'll arrange the appropriate vehicle and child restraints.",
+     "id": "6abea6541dfa9c58dc07d7e8"
+    }
+   ],
+   "introItemsIntro": "What to provide when booking:",
+   "introItems": [
+    {
+     "text": "Flight number - so the booking is associated with the correct arrival",
+     "id": "6abea6541dfa9c58dc07d7e9"
+    },
+    {
+     "text": "Number and ages of children, with approximate size",
+     "id": "6abea6541dfa9c58dc07d7ea"
+    },
+    {
+     "text": "Number of adults",
+     "id": "6abea6541dfa9c58dc07d7eb"
+    },
+    {
+     "text": "Suitcases and carry-on bags",
+     "id": "6abea6541dfa9c58dc07d7ec"
+    },
+    {
+     "text": "Pram or stroller (single or double)",
+     "id": "6abea6541dfa9c58dc07d7ed"
+    },
+    {
+     "text": "Oversized items",
+     "id": "6abea6541dfa9c58dc07d7ee"
+    },
+    {
+     "text": "Destination - home, hotel or cruise terminal",
+     "id": "6abea6541dfa9c58dc07d7ef"
+    },
+    {
+     "text": "Return flight, if you'd like to book both legs together",
+     "id": "6abea6541dfa9c58dc07d7f0"
+    }
+   ],
+   "features": [
+    {
+     "title": "Restraints for Every Child",
+     "description": "Request a restraint for each child - a baby capsule or a child seat. Multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6abea6541dfa9c58dc07d7f1"
+    },
+    {
+     "title": "Vehicle Sized for Your Luggage",
+     "description": "Child restraints change the number of usable seats. Tell us about every suitcase and pram and we'll confirm a vehicle that fits.",
+     "id": "6abea6541dfa9c58dc07d7f2"
+    },
+    {
+     "title": "Arrivals, Departures & Return Trips",
+     "description": "Early departures, late arrivals and overnight flights - and you can book your return transfer at the same time.",
+     "id": "6abea6541dfa9c58dc07d7f3"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do you pick up from T1, T2 and T3?",
+     "answer": "Yes. We provide transfers from T1 International and T2/T3 Domestic terminals.",
+     "id": "6abea6541dfa9c58dc07d7f4"
+    },
+    {
+     "question": "What happens if my flight is delayed?",
+     "answer": "Add your flight number when booking so the booking is associated with the correct arrival, and contact us if your plans change.",
+     "id": "6abea6541dfa9c58dc07d7f5"
+    },
+    {
+     "question": "Can I book two or three child seats?",
+     "answer": "Yes. Request a restraint for each child. Multiple restraints are subject to vehicle configuration and availability.",
+     "id": "6abea6541dfa9c58dc07d7f6"
+    },
+    {
+     "question": "Can overseas visitors book before arriving?",
+     "answer": "Yes. Book online before you travel, including the child restraints you need for your arrival.",
+     "id": "6abea6541dfa9c58dc07d7f7"
+    },
+    {
+     "question": "Can I book both airport legs together?",
+     "answer": "Yes. Many families book the arrival and return transfer at the same time.",
+     "id": "6abea6541dfa9c58dc07d7f8"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "pages",
+  "id": "6a834a44054c74111187622c",
+  "slug": "baby-capsule-taxi-sydney",
+  "original": {
+   "metaTitle": "Baby Capsule Taxi Sydney | Safe Newborn & Infant Taxi Service",
+   "metaDescription": "Baby Capsule Taxi Sydney provides safe newborn and infant transport across Sydney with approved baby capsules fitted before every journey. Airport, hospital and everyday transfers.",
+   "h1": "Baby Capsule Taxi Sydney - Safe Newborn & Infant Transport Across Sydney",
+   "heroDescription": "Travelling with a newborn requires more than just a ride — it requires safety, comfort and peace of mind, with an approved baby capsule fitted correctly before every journey.",
+   "intro": [
+    {
+     "text": "Travelling with a newborn requires more than just a ride. It requires safety, comfort, and peace of mind. Our Baby Capsule Taxi Sydney service is designed specifically for families travelling with newborns and infants who require an approved baby capsule fitted correctly before every journey.",
+     "id": "6a834ea76bbc254024ce732f"
+    },
+    {
+     "text": "Whether you need transport from hospital to home, Sydney Airport transfers, medical appointments, family visits, hotels, cruise terminals, or everyday travel, our professional drivers provide safe and reliable family transport with baby capsules available on request.",
+     "id": "6a834ea76bbc254024ce7330"
+    },
+    {
+     "text": "Every journey is planned with your child's safety as the highest priority, giving parents confidence that their baby is travelling in an appropriate restraint that meets Australian safety requirements. NSW regulations require children under 12 months to travel in suitable approved restraints, making pre-booked baby capsule taxis an ideal solution for families travelling with newborns and infants.",
+     "id": "6a834ea76bbc254024ce7331"
+    }
+   ],
+   "introItemsIntro": "Our Baby Capsule Taxi Sydney service is commonly booked for:",
+   "introItems": [
+    {
+     "text": "Hospital discharge transfers",
+     "id": "6a834ea76bbc254024ce7332"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834ea76bbc254024ce7333"
+    },
+    {
+     "text": "Family visits",
+     "id": "6a834ea76bbc254024ce7334"
+    },
+    {
+     "text": "Medical appointments",
+     "id": "6a834ea76bbc254024ce7335"
+    },
+    {
+     "text": "Hotel transfers",
+     "id": "6a834ea76bbc254024ce7336"
+    },
+    {
+     "text": "Cruise terminal transfers",
+     "id": "6a834ea76bbc254024ce7337"
+    },
+    {
+     "text": "Everyday family transport",
+     "id": "6a834ea76bbc254024ce7338"
+    }
+   ],
+   "features": [
+    {
+     "title": "Professionally Fitted Baby Capsules",
+     "description": "Our vehicles are equipped with approved baby capsules suitable for newborns and young infants. Tell us your baby's age when booking so a suitable rear-facing restraint is arranged before your journey.",
+     "id": "6a834ea76bbc254024ce7339"
+    },
+    {
+     "title": "Experienced Family-Friendly Drivers",
+     "description": "Our drivers understand the needs of parents travelling with babies. They allow extra time for boarding, luggage, prams, feeding equipment, and ensuring your child is safely secured.",
+     "id": "6a834ea76bbc254024ce733a"
+    },
+    {
+     "title": "Room for Prams and Baby Gear",
+     "description": "Tell us about prams, baby bags and luggage when booking so we can arrange a suitably sized vehicle.",
+     "id": "6a834ea76bbc254024ce733b"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to request a baby capsule when booking?",
+     "answer": "Yes. Please advise us when making your booking so we can ensure the correct baby capsule is available for your journey.",
+     "id": "6a834ea76bbc254024ce733c"
+    },
+    {
+     "question": "Can newborn babies travel in your taxis?",
+     "answer": "Yes. Our baby capsule taxis are specifically designed for newborn and infant transport when booked in advance.",
+     "id": "6a834ea76bbc254024ce733d"
+    },
+    {
+     "question": "Do you provide airport transfers with baby capsules?",
+     "answer": "Yes. We provide Sydney Airport transfers with baby capsules available upon request.",
+     "id": "6a834ea76bbc254024ce733e"
+    },
+    {
+     "question": "Can I use my own baby capsule?",
+     "answer": "Yes. If you prefer to use your own approved baby capsule, please let us know when booking.",
+     "id": "6a834ea76bbc254024ce733f"
+    },
+    {
+     "question": "Do you offer hospital pickup services?",
+     "answer": "Yes. We regularly provide hospital-to-home transfers for new parents and newborn babies across Sydney, including from Royal Prince Alfred Hospital, Westmead Hospital, Liverpool Hospital, St George Hospital, The Royal Hospital for Women and Northern Beaches Hospital.",
+     "id": "6a834ea76bbc254024ce7340"
+    }
+   ]
+  },
+  "data": {
+   "metaTitle": "Baby Capsule Taxi Sydney | Safe Newborn & Infant Taxi Service",
+   "metaDescription": "Baby Capsule Taxi Sydney provides safe newborn and infant transport across Sydney with an approved baby capsule arranged at booking. Airport, hospital and everyday transfers.",
+   "h1": "Baby Capsule Taxi Sydney - Safe Newborn & Infant Transport Across Sydney",
+   "heroDescription": "Travelling with a newborn requires more than just a ride — it requires safety, comfort and peace of mind, with an approved baby capsule arranged for the journey.",
+   "intro": [
+    {
+     "text": "Travelling with a newborn requires more than just a ride. It requires safety, comfort, and peace of mind. Our Baby Capsule Taxi Sydney service is designed specifically for families travelling with newborns and infants who need an approved baby capsule arranged for their journey.",
+     "id": "6a834ea76bbc254024ce732f"
+    },
+    {
+     "text": "Whether you need transport from hospital to home, Sydney Airport transfers, medical appointments, family visits, hotels, cruise terminals, or everyday travel, our professional drivers provide safe and reliable family transport with baby capsules available on request.",
+     "id": "6a834ea76bbc254024ce7330"
+    },
+    {
+     "text": "Every journey is planned with your child's safety as the highest priority, giving parents confidence that their baby is travelling in an appropriate restraint that meets Australian safety requirements. NSW regulations require children under 12 months to travel in suitable approved restraints, making pre-booked baby capsule taxis an ideal solution for families travelling with newborns and infants.",
+     "id": "6a834ea76bbc254024ce7331"
+    }
+   ],
+   "introItemsIntro": "Our Baby Capsule Taxi Sydney service is commonly booked for:",
+   "introItems": [
+    {
+     "text": "Hospital discharge transfers",
+     "id": "6a834ea76bbc254024ce7332"
+    },
+    {
+     "text": "Airport transfers",
+     "id": "6a834ea76bbc254024ce7333"
+    },
+    {
+     "text": "Family visits",
+     "id": "6a834ea76bbc254024ce7334"
+    },
+    {
+     "text": "Medical appointments",
+     "id": "6a834ea76bbc254024ce7335"
+    },
+    {
+     "text": "Hotel transfers",
+     "id": "6a834ea76bbc254024ce7336"
+    },
+    {
+     "text": "Cruise terminal transfers",
+     "id": "6a834ea76bbc254024ce7337"
+    },
+    {
+     "text": "Everyday family transport",
+     "id": "6a834ea76bbc254024ce7338"
+    }
+   ],
+   "features": [
+    {
+     "title": "Baby Capsules Arranged at Booking",
+     "description": "Our vehicles are equipped with approved baby capsules suitable for newborns and young infants. Tell us your baby's age when booking so a suitable rear-facing restraint is arranged before your journey.",
+     "id": "6a834ea76bbc254024ce7339"
+    },
+    {
+     "title": "Experienced Family-Friendly Drivers",
+     "description": "Our drivers understand the needs of parents travelling with babies. They allow extra time for boarding, luggage, prams, feeding equipment, and ensuring your child is safely secured.",
+     "id": "6a834ea76bbc254024ce733a"
+    },
+    {
+     "title": "Room for Prams and Baby Gear",
+     "description": "Tell us about prams, baby bags and luggage when booking so we can arrange a suitably sized vehicle.",
+     "id": "6a834ea76bbc254024ce733b"
+    }
+   ],
+   "contentSections": [],
+   "faq": [
+    {
+     "question": "Do I need to request a baby capsule when booking?",
+     "answer": "Yes. Please advise us when making your booking so we can ensure the correct baby capsule is available for your journey.",
+     "id": "6a834ea76bbc254024ce733c"
+    },
+    {
+     "question": "Can newborn babies travel in your taxis?",
+     "answer": "Yes. Our baby capsule taxis are specifically designed for newborn and infant transport when booked in advance.",
+     "id": "6a834ea76bbc254024ce733d"
+    },
+    {
+     "question": "Do you provide airport transfers with baby capsules?",
+     "answer": "Yes. We provide Sydney Airport transfers with baby capsules available upon request.",
+     "id": "6a834ea76bbc254024ce733e"
+    },
+    {
+     "question": "Can I use my own baby capsule?",
+     "answer": "Yes. If you prefer to use your own approved baby capsule, please let us know when booking.",
+     "id": "6a834ea76bbc254024ce733f"
+    },
+    {
+     "question": "Do you offer hospital pickup services?",
+     "answer": "Yes. We regularly provide hospital-to-home transfers for new parents and newborn babies across Sydney, including from Royal Prince Alfred Hospital, Westmead Hospital, Liverpool Hospital, St George Hospital, The Royal Hospital for Women and Northern Beaches Hospital.",
+     "id": "6a834ea76bbc254024ce7340"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "blog-posts",
+  "id": "6a834c52599a948fa8d3804d",
+  "slug": "do-taxis-need-baby-seats-in-sydney-nsw-laws-explained",
+  "original": {
+   "title": "Do Taxis Need Baby Seats in Sydney? NSW Laws Explained",
+   "metaTitle": "Do Taxis Need Baby Seats in Sydney? NSW Laws Explained | Baby Seat Taxi Sydney Blog",
+   "metaDescription": "A plain-English explanation of NSW child restraint laws and how they apply when travelling with children in a taxi or hire vehicle in Sydney.",
+   "excerpt": "The answer can be confusing because taxi laws are different from private vehicle laws in New South Wales. We explain NSW taxi baby seat laws, child restraint requirements, and how to pre-book a taxi with the child restraint you need.",
+   "sections": [
+    {
+     "paragraphs": [
+      {
+       "text": "When traveling with children in Sydney, one of the most common questions parents ask is: “Do taxis need baby seats in NSW?”",
+       "id": "6a834ee76bbc254024ce7454"
+      },
+      {
+       "text": "The answer can be confusing because taxi laws are different from private vehicle laws in New South Wales. Understanding these rules is important for keeping your child safe and avoiding unnecessary stress during travel.",
+       "id": "6a834ee76bbc254024ce7455"
+      },
+      {
+       "text": "In this guide, we explain NSW taxi baby seat laws, child restraint requirements, and how to pre-book a taxi with the child restraint you need when travelling in Sydney.",
+       "id": "6a834ee76bbc254024ce7456"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7457"
+    },
+    {
+     "heading": "NSW Child Restraint Laws for Private Vehicles",
+     "paragraphs": [
+      {
+       "text": "Under NSW road rules, children must normally use an approved child restraint suitable for their age and size.",
+       "id": "6a834ee76bbc254024ce7458"
+      },
+      {
+       "text": "Babies under 6 months must use a rear-facing baby capsule or restraint. Children 6 months to under 4 years must use either a rear-facing or forward-facing restraint with a harness. Children 4 years to under 7 years must use a forward-facing restraint or booster seat. Children under 4 years must not sit in the front seat of a vehicle with two or more rows of seats, and children aged 4 to under 7 years can only sit in the front if all other seats are occupied by younger children in a child restraint or booster seat.",
+       "id": "6a834ee76bbc254024ce7459"
+      },
+      {
+       "text": "These laws apply strictly to private vehicles.",
+       "id": "6a834ee76bbc254024ce745a"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce745b"
+    },
+    {
+     "heading": "What Are the Child Restraint Rules for NSW Taxis?",
+     "paragraphs": [
+      {
+       "text": "Not entirely - taxis have their own child restraint rules under NSW law.",
+       "id": "6a834ee76bbc254024ce745c"
+      },
+      {
+       "text": "In NSW taxis, children up to 6 months must use a rear-facing child restraint, and children aged 6 to 12 months must use a rear-facing restraint or a forward-facing restraint with an inbuilt harness. Children over 12 months must use a booster seat or wear a properly adjusted and fastened seatbelt. Booked hire and rideshare vehicles follow different rules.",
+       "id": "6a834ee76bbc254024ce745d"
+      },
+      {
+       "text": "For children over 12 months a seatbelt may be legal in a taxi - but many parents prefer the restraint their child uses in the family car.",
+       "id": "6a834ee76bbc254024ce745e"
+      },
+      {
+       "text": "Many parents assume taxis automatically provide child seats, but standard taxis often do not carry baby restraints unless pre-booked.",
+       "id": "6a834ee76bbc254024ce745f"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7460"
+    },
+    {
+     "heading": "Is It Safe for Babies to Travel Without a Child Seat?",
+     "paragraphs": [
+      {
+       "text": "Even where NSW taxi laws allow a seatbelt for older children, road safety experts strongly recommend using a properly fitted child restraint whenever possible.",
+       "id": "6a834ee76bbc254024ce7461"
+      },
+      {
+       "text": "A child seat significantly reduces the risk of injury during sudden braking, sharp turns, minor accidents and emergency situations.",
+       "id": "6a834ee76bbc254024ce7462"
+      },
+      {
+       "text": "Babies and toddlers are especially vulnerable because adult seatbelts are not designed for small children.",
+       "id": "6a834ee76bbc254024ce7463"
+      },
+      {
+       "text": "For this reason, many Sydney families now choose professional taxi services that provide baby capsules, rear-facing baby seats, forward-facing child seats and booster seats.",
+       "id": "6a834ee76bbc254024ce7464"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7465"
+    },
+    {
+     "heading": "Why Parents Choose Baby Seat Taxis in Sydney",
+     "paragraphs": [
+      {
+       "text": "Booking a taxi with baby seat service gives parents peace of mind during family travel. Benefits include safer travel for children, with professional child restraints helping protect babies and young children during the journey.",
+       "id": "6a834ee76bbc254024ce7466"
+      },
+      {
+       "text": "Airport travel convenience: parents traveling to or from Sydney Airport often carry luggage, prams, and bags. A pre-installed baby seat removes extra stress.",
+       "id": "6a834ee76bbc254024ce7467"
+      },
+      {
+       "text": "Correct seat installation: experienced drivers know how to properly install and secure approved child restraints.",
+       "id": "6a834ee76bbc254024ce7468"
+      },
+      {
+       "text": "Comfortable family transport: maxi taxis with baby seats provide additional room for large families, extra luggage, strollers, prams and airport transfers.",
+       "id": "6a834ee76bbc254024ce7469"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce746a"
+    },
+    {
+     "heading": "What Types of Baby Seats Are Available in Sydney Taxis?",
+     "paragraphs": [
+      {
+       "text": "Professional baby seat taxi services may offer a baby capsule (rear-facing), suitable for newborns and infants; a rear-facing baby seat, recommended for babies under 6 months and younger toddlers; a forward-facing child seat, suitable for toddlers and younger children; and a booster seat, ideal for older children who have outgrown harness restraints.",
+       "id": "6a834ee76bbc254024ce746b"
+      },
+      {
+       "text": "When booking, always mention your child's age, approximate weight, the number of children, and the seat type required. This helps ensure the correct restraint is prepared before pickup.",
+       "id": "6a834ee76bbc254024ce746c"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce746d"
+    },
+    {
+     "heading": "Sydney Airport Transfers With Baby Seats",
+     "paragraphs": [
+      {
+       "text": "Airport transfers are one of the most popular reasons families book baby seat taxis in Sydney.",
+       "id": "6a834ee76bbc254024ce746e"
+      },
+      {
+       "text": "Traveling with children after a long flight can be exhausting. Pre-booking a taxi with child seats offers reliable pickup times, spacious vehicles, safe transport for children, extra luggage capacity and stress-free airport travel.",
+       "id": "6a834ee76bbc254024ce746f"
+      },
+      {
+       "text": "Many families prefer pre-booked airport taxis over rideshare services because availability of child seats can be limited during busy hours.",
+       "id": "6a834ee76bbc254024ce7470"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7471"
+    },
+    {
+     "heading": "Tips for Booking a Taxi With Baby Seat in Sydney",
+     "paragraphs": [
+      {
+       "text": "Before booking: confirm the child seat type required, mention child age and size, pre-book in advance during busy periods, and request a maxi taxi if traveling with luggage or multiple passengers.",
+       "id": "6a834ee76bbc254024ce7472"
+      },
+      {
+       "text": "Always verify that the seat is securely installed before starting the trip.",
+       "id": "6a834ee76bbc254024ce7473"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7474"
+    },
+    {
+     "heading": "Final Thoughts",
+     "paragraphs": [
+      {
+       "text": "While NSW taxi laws allow children over 12 months to use a seatbelt, safety should always come first.",
+       "id": "6a834ee76bbc254024ce7475"
+      },
+      {
+       "text": "Using a professionally installed child restraint provides better protection, greater comfort, and peace of mind for parents traveling around Sydney.",
+       "id": "6a834ee76bbc254024ce7476"
+      },
+      {
+       "text": "Whether you need airport transfers, family transport, maxi taxi services, newborn travel solutions or child-safe taxi bookings, a pre-booked baby seat taxi lets you travel with the child restraint you've requested.",
+       "id": "6a834ee76bbc254024ce7477"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7478"
+    },
+    {
+     "heading": "Book a Safe Baby Seat Taxi in Sydney",
+     "paragraphs": [
+      {
+       "text": "Looking for reliable family transport with child restraints? Visit Baby Seat Taxi Sydney to book safe and comfortable travel for your family today.",
+       "id": "6a834ee76bbc254024ce7479"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce747a"
+    },
+    {
+     "paragraphs": [
+      {
+       "text": "This article is general information only and is not legal advice. For the most current NSW road rules on child restraints, refer to the NSW Government's official transport and road safety resources.",
+       "id": "6a834ee76bbc254024ce747b"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce747c"
+    }
+   ]
+  },
+  "data": {
+   "title": "Do Taxis Need Baby Seats in Sydney? NSW Laws Explained",
+   "metaTitle": "Do Taxis Need Baby Seats in Sydney? NSW Laws Explained | Baby Seat Taxi Sydney Blog",
+   "metaDescription": "A plain-English explanation of NSW child restraint laws and how they apply when travelling with children in a taxi or hire vehicle in Sydney.",
+   "excerpt": "The answer can be confusing because taxi laws are different from private vehicle laws in New South Wales. We explain NSW taxi baby seat laws, child restraint requirements, and how to pre-book a taxi with the child restraint you need.",
+   "sections": [
+    {
+     "paragraphs": [
+      {
+       "text": "When traveling with children in Sydney, one of the most common questions parents ask is: “Do taxis need baby seats in NSW?”",
+       "id": "6a834ee76bbc254024ce7454"
+      },
+      {
+       "text": "The answer can be confusing because taxi laws are different from private vehicle laws in New South Wales. Understanding these rules is important for keeping your child safe and avoiding unnecessary stress during travel.",
+       "id": "6a834ee76bbc254024ce7455"
+      },
+      {
+       "text": "In this guide, we explain NSW taxi baby seat laws, child restraint requirements, and how to pre-book a taxi with the child restraint you need when travelling in Sydney.",
+       "id": "6a834ee76bbc254024ce7456"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7457"
+    },
+    {
+     "heading": "NSW Child Restraint Laws for Private Vehicles",
+     "paragraphs": [
+      {
+       "text": "In private vehicles - and in hire and rideshare vehicles, which follow the same rules - children under 7 must use an approved child restraint suitable for their age and size.",
+       "id": "6a834ee76bbc254024ce7458"
+      },
+      {
+       "text": "Babies under 6 months must use a rear-facing baby capsule or restraint. Children 6 months to under 4 years must use either a rear-facing or forward-facing restraint with a harness. Children 4 years to under 7 years must use a forward-facing restraint or booster seat. Children under 4 years must not sit in the front seat of a vehicle with two or more rows of seats, and children aged 4 to under 7 years can only sit in the front if all other seats are occupied by younger children in a child restraint or booster seat.",
+       "id": "6a834ee76bbc254024ce7459"
+      },
+      {
+       "text": "These laws apply strictly to private vehicles.",
+       "id": "6a834ee76bbc254024ce745a"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce745b"
+    },
+    {
+     "heading": "What Are the Child Restraint Rules for NSW Taxis?",
+     "paragraphs": [
+      {
+       "text": "Not entirely - taxis have their own child restraint rules under NSW law.",
+       "id": "6a834ee76bbc254024ce745c"
+      },
+      {
+       "text": "In a NSW taxi, children under 12 months must be secured in a suitable approved child restraint - rear-facing up to 6 months, and rear-facing or forward-facing with an inbuilt harness from 6 to 12 months. The taxi driver must not start the trip if neither the driver nor the adult passenger has one. Children over 12 months may travel wearing a properly fastened and adjusted seatbelt, although a suitable approved child restraint is strongly recommended. Hire and rideshare vehicles follow the private-vehicle rules above, not the taxi rules.",
+       "id": "6a834ee76bbc254024ce745d"
+      },
+      {
+       "text": "For children over 12 months a seatbelt may be legal in a taxi - but many parents prefer the restraint their child uses in the family car.",
+       "id": "6a834ee76bbc254024ce745e"
+      },
+      {
+       "text": "Many parents assume taxis automatically provide child seats, but standard taxis often do not carry baby restraints unless pre-booked.",
+       "id": "6a834ee76bbc254024ce745f"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7460"
+    },
+    {
+     "heading": "Is It Safe for Babies to Travel Without a Child Seat?",
+     "paragraphs": [
+      {
+       "text": "Even where NSW taxi laws allow a seatbelt for older children, road safety experts strongly recommend using a properly fitted child restraint whenever possible.",
+       "id": "6a834ee76bbc254024ce7461"
+      },
+      {
+       "text": "A child seat significantly reduces the risk of injury during sudden braking, sharp turns, minor accidents and emergency situations.",
+       "id": "6a834ee76bbc254024ce7462"
+      },
+      {
+       "text": "Babies and toddlers are especially vulnerable because adult seatbelts are not designed for small children.",
+       "id": "6a834ee76bbc254024ce7463"
+      },
+      {
+       "text": "For this reason, many Sydney families pre-book a taxi with a baby capsule or child seat arranged for the journey.",
+       "id": "6a834ee76bbc254024ce7464"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7465"
+    },
+    {
+     "heading": "Why Parents Choose Baby Seat Taxis in Sydney",
+     "paragraphs": [
+      {
+       "text": "Booking a taxi with baby seat service gives parents peace of mind during family travel. Benefits include safer travel for children, with professional child restraints helping protect babies and young children during the journey.",
+       "id": "6a834ee76bbc254024ce7466"
+      },
+      {
+       "text": "Airport travel convenience: parents traveling to or from Sydney Airport often carry luggage, prams, and bags. A child restraint arranged in advance removes extra stress.",
+       "id": "6a834ee76bbc254024ce7467"
+      },
+      {
+       "text": "Restraint arranged in advance: child restraints are requested when booking and prepared according to the confirmed journey requirements.",
+       "id": "6a834ee76bbc254024ce7468"
+      },
+      {
+       "text": "Comfortable family transport: maxi taxis with baby seats provide additional room for large families, extra luggage, strollers, prams and airport transfers.",
+       "id": "6a834ee76bbc254024ce7469"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce746a"
+    },
+    {
+     "heading": "What Types of Baby Seats Are Available in Sydney Taxis?",
+     "paragraphs": [
+      {
+       "text": "Baby Seat Taxi Sydney arranges baby capsules (rear-facing, for newborns and babies) and child seats (including forward-facing seats with an inbuilt harness for toddlers and young children). We do not provide booster seats - if your child uses a booster seat, please bring your own approved booster.",
+       "id": "6a834ee76bbc254024ce746b"
+      },
+      {
+       "text": "When booking, always mention your child's age, approximate weight, the number of children, and the seat type required. This helps ensure the correct restraint is prepared before pickup.",
+       "id": "6a834ee76bbc254024ce746c"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce746d"
+    },
+    {
+     "heading": "Sydney Airport Transfers With Baby Seats",
+     "paragraphs": [
+      {
+       "text": "Airport transfers are one of the most popular reasons families book baby seat taxis in Sydney.",
+       "id": "6a834ee76bbc254024ce746e"
+      },
+      {
+       "text": "Traveling with children after a long flight can be exhausting. Pre-booking a taxi with child seats offers reliable pickup times, spacious vehicles, safe transport for children, extra luggage capacity and stress-free airport travel.",
+       "id": "6a834ee76bbc254024ce746f"
+      },
+      {
+       "text": "Many families prefer pre-booked airport taxis over rideshare services because availability of child seats can be limited during busy hours.",
+       "id": "6a834ee76bbc254024ce7470"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7471"
+    },
+    {
+     "heading": "Tips for Booking a Taxi With Baby Seat in Sydney",
+     "paragraphs": [
+      {
+       "text": "Before booking: confirm the child seat type required, mention child age and size, pre-book in advance during busy periods, and request a maxi taxi if traveling with luggage or multiple passengers.",
+       "id": "6a834ee76bbc254024ce7472"
+      },
+      {
+       "text": "Always verify that the seat is securely installed before starting the trip.",
+       "id": "6a834ee76bbc254024ce7473"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7474"
+    },
+    {
+     "heading": "Final Thoughts",
+     "paragraphs": [
+      {
+       "text": "While NSW taxi laws allow children over 12 months to use a seatbelt, safety should always come first.",
+       "id": "6a834ee76bbc254024ce7475"
+      },
+      {
+       "text": "Using a suitable approved child restraint provides better protection, greater comfort, and peace of mind for parents traveling around Sydney.",
+       "id": "6a834ee76bbc254024ce7476"
+      },
+      {
+       "text": "Whether you need airport transfers, family transport, maxi taxi services, newborn travel solutions or child-safe taxi bookings, a pre-booked baby seat taxi lets you travel with the child restraint you've requested.",
+       "id": "6a834ee76bbc254024ce7477"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce7478"
+    },
+    {
+     "heading": "Book a Safe Baby Seat Taxi in Sydney",
+     "paragraphs": [
+      {
+       "text": "Looking for reliable family transport with child restraints? Visit Baby Seat Taxi Sydney to book safe and comfortable travel for your family today.",
+       "id": "6a834ee76bbc254024ce7479"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce747a"
+    },
+    {
+     "paragraphs": [
+      {
+       "text": "This article is general information only and is not legal advice. For the most current NSW road rules on child restraints, refer to the NSW Government's official transport and road safety resources.",
+       "id": "6a834ee76bbc254024ce747b"
+      }
+     ],
+     "id": "6a834ee76bbc254024ce747c"
+    }
+   ]
+  }
+ },
+ {
+  "collection": "blog-posts",
+  "id": "6a834c26599a948fa8d3803c",
+  "slug": "benefits-of-booking-a-taxi-with-a-baby-seat",
+  "original": {
+   "title": "10 Benefits of Booking a Taxi with a Baby Seat",
+   "metaTitle": "10 Benefits of Booking a Taxi with a Baby Seat | Baby Seat Taxi Sydney Blog",
+   "metaDescription": "Discover the key benefits of booking a taxi with a professionally fitted baby seat in Sydney, from safety and convenience to peace of mind for parents.",
+   "excerpt": "Travelling with a baby or young child requires extra planning, especially when it comes to transportation. Here are the top 10 benefits of booking a taxi with a baby seat in Sydney.",
+   "sections": [
+    {
+     "paragraphs": [
+      {
+       "text": "Travelling with a baby or young child requires extra planning, especially when it comes to transportation. Whether you're heading to the airport, visiting family, attending a medical appointment, or simply exploring Sydney, ensuring your child travels safely should always be the top priority.",
+       "id": "6a834ee36bbc254024ce741d"
+      },
+      {
+       "text": "A taxi with a baby seat offers parents peace of mind by providing a safe, convenient, and reliable transportation solution without the hassle of carrying and installing their own child restraint.",
+       "id": "6a834ee36bbc254024ce741e"
+      },
+      {
+       "text": "Here are the top 10 benefits of booking a taxi with a baby seat in Sydney.",
+       "id": "6a834ee36bbc254024ce741f"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7420"
+    },
+    {
+     "heading": "1. Enhanced Safety for Your Child",
+     "paragraphs": [
+      {
+       "text": "The biggest advantage of booking a taxi with a baby seat is safety.",
+       "id": "6a834ee36bbc254024ce7421"
+      },
+      {
+       "text": "Child restraints are specifically designed to protect infants and young children during sudden braking, sharp turns, or collisions. A properly fitted baby seat significantly reduces the risk of injury compared to travelling without an appropriate restraint.",
+       "id": "6a834ee36bbc254024ce7422"
+      },
+      {
+       "text": "Parents can travel confidently knowing their child is secured according to recommended safety standards.",
+       "id": "6a834ee36bbc254024ce7423"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7424"
+    },
+    {
+     "heading": "2. Compliance with Child Safety Requirements",
+     "paragraphs": [
+      {
+       "text": "Child restraint regulations in Australia are designed to improve child passenger safety.",
+       "id": "6a834ee36bbc254024ce7425"
+      },
+      {
+       "text": "By booking a taxi equipped with an appropriate baby seat, parents can ensure their child travels in a suitable restraint based on their age and size.",
+       "id": "6a834ee36bbc254024ce7426"
+      },
+      {
+       "text": "Professional baby seat taxi services understand these requirements and provide suitable seating options for infants, toddlers, and older children.",
+       "id": "6a834ee36bbc254024ce7427"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7428"
+    },
+    {
+     "heading": "3. No Need to Carry Your Own Baby Seat",
+     "paragraphs": [
+      {
+       "text": "One of the biggest frustrations when travelling is carrying bulky baby equipment.",
+       "id": "6a834ee36bbc254024ce7429"
+      },
+      {
+       "text": "When you book a taxi with a baby seat: no heavy baby seat to transport, no installation hassles, no extra luggage at the airport, no stress when travelling with multiple children.",
+       "id": "6a834ee36bbc254024ce742a"
+      },
+      {
+       "text": "This convenience is especially valuable for tourists, interstate travellers, and families arriving at Sydney Airport.",
+       "id": "6a834ee36bbc254024ce742b"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce742c"
+    },
+    {
+     "heading": "4. Stress-Free Airport Transfers",
+     "paragraphs": [
+      {
+       "text": "Airport travel with children can be challenging.",
+       "id": "6a834ee36bbc254024ce742d"
+      },
+      {
+       "text": "Between luggage, strollers, prams, and keeping children entertained, parents already have plenty to manage.",
+       "id": "6a834ee36bbc254024ce742e"
+      },
+      {
+       "text": "A pre-booked taxi with a baby seat ensures the correct child seat is ready upon arrival, no waiting for suitable transport, easy airport pickups and drop-offs, and comfortable travel after long flights.",
+       "id": "6a834ee36bbc254024ce742f"
+      },
+      {
+       "text": "Many Sydney families rely on baby seat taxis for both domestic and international airport transfers.",
+       "id": "6a834ee36bbc254024ce7430"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7431"
+    },
+    {
+     "heading": "5. Professional Installation of Child Seats",
+     "paragraphs": [
+      {
+       "text": "Incorrectly installed child restraints can reduce their effectiveness.",
+       "id": "6a834ee36bbc254024ce7432"
+      },
+      {
+       "text": "Professional baby seat taxi services typically ensure that seats are fitted correctly before each journey.",
+       "id": "6a834ee36bbc254024ce7433"
+      },
+      {
+       "text": "This removes the uncertainty many parents experience when installing or adjusting child restraints themselves.",
+       "id": "6a834ee36bbc254024ce7434"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7435"
+    },
+    {
+     "heading": "6. Suitable Options for Different Ages",
+     "paragraphs": [
+      {
+       "text": "Children require different restraint types as they grow. Baby seat taxi services often provide baby capsules (suitable for newborns and young infants), rear-facing baby seats (ideal for younger children requiring additional support), forward-facing child seats (designed for growing toddlers), and booster seats (suitable for older children who have outgrown traditional child restraints).",
+       "id": "6a834ee36bbc254024ce7436"
+      },
+      {
+       "text": "Parents can request the most appropriate seat when booking.",
+       "id": "6a834ee36bbc254024ce7437"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7438"
+    },
+    {
+     "heading": "7. Convenient for Tourists Visiting Sydney",
+     "paragraphs": [
+      {
+       "text": "Families visiting Sydney often face transportation challenges after landing.",
+       "id": "6a834ee36bbc254024ce7439"
+      },
+      {
+       "text": "Bringing a child seat on a plane can be inconvenient and expensive. Booking a taxi with a baby seat allows tourists to travel safely immediately after arrival, avoid renting additional equipment, explore Sydney comfortably, and enjoy a hassle-free travel experience.",
+       "id": "6a834ee36bbc254024ce743a"
+      },
+      {
+       "text": "This is particularly useful for visitors travelling with infants and toddlers.",
+       "id": "6a834ee36bbc254024ce743b"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce743c"
+    },
+    {
+     "heading": "8. Ideal for Medical Appointments and Daily Travel",
+     "paragraphs": [
+      {
+       "text": "Not every journey involves airports or holidays.",
+       "id": "6a834ee36bbc254024ce743d"
+      },
+      {
+       "text": "Parents frequently require transportation for medical appointments, childcare drop-offs, school pickups, family visits and shopping trips.",
+       "id": "6a834ee36bbc254024ce743e"
+      },
+      {
+       "text": "A taxi with a baby seat provides a practical and safe option whenever private transport is unavailable.",
+       "id": "6a834ee36bbc254024ce743f"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7440"
+    },
+    {
+     "heading": "9. Comfortable Travel for Parents and Children",
+     "paragraphs": [
+      {
+       "text": "A secure child is often a calmer child. Properly fitted baby seats help children remain comfortable throughout the journey while reducing movement and discomfort.",
+       "id": "6a834ee36bbc254024ce7441"
+      },
+      {
+       "text": "Parents can focus on the trip instead of worrying about safety or managing restless children.",
+       "id": "6a834ee36bbc254024ce7442"
+      },
+      {
+       "text": "Comfortable transportation creates a better experience for the entire family.",
+       "id": "6a834ee36bbc254024ce7443"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7444"
+    },
+    {
+     "heading": "10. Peace of Mind for Every Journey",
+     "paragraphs": [
+      {
+       "text": "Perhaps the greatest benefit is peace of mind.",
+       "id": "6a834ee36bbc254024ce7445"
+      },
+      {
+       "text": "Knowing that your child is travelling safely, the correct restraint is available, the seat is professionally installed, and the vehicle is ready when needed allows parents to relax and enjoy the journey.",
+       "id": "6a834ee36bbc254024ce7446"
+      },
+      {
+       "text": "Whether travelling across Sydney or heading to the airport, confidence in your child's safety makes every trip more enjoyable.",
+       "id": "6a834ee36bbc254024ce7447"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7448"
+    },
+    {
+     "heading": "When Should You Book a Taxi with a Baby Seat?",
+     "paragraphs": [
+      {
+       "text": "Consider booking a baby seat taxi when: travelling to or from Sydney Airport, transporting newborns or infants, travelling with toddlers, visiting Sydney as a tourist, attending medical appointments, going on family outings, or using transport without access to your own child seat.",
+       "id": "6a834ee36bbc254024ce7449"
+      },
+      {
+       "text": "Pre-booking ensures the correct seat type is available when you need it.",
+       "id": "6a834ee36bbc254024ce744a"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce744b"
+    },
+    {
+     "heading": "Why Families Choose Baby Seat Taxi Sydney",
+     "paragraphs": [
+      {
+       "text": "At Baby Seat Taxi Sydney, we understand that family safety comes first.",
+       "id": "6a834ee36bbc254024ce744c"
+      },
+      {
+       "text": "We provide baby capsules, child seats, booster seats, airport transfers, family-friendly transport, professional drivers, and reliable pre-booked services across Sydney.",
+       "id": "6a834ee36bbc254024ce744d"
+      },
+      {
+       "text": "Our goal is to make travelling with children simple, safe, and stress-free.",
+       "id": "6a834ee36bbc254024ce744e"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce744f"
+    },
+    {
+     "heading": "Book Your Baby Seat Taxi Today",
+     "paragraphs": [
+      {
+       "text": "Travelling with children doesn't have to be complicated.",
+       "id": "6a834ee36bbc254024ce7450"
+      },
+      {
+       "text": "Booking a taxi with a baby seat offers a safer, more convenient, and more comfortable experience for both parents and children. Whether you're heading to the airport, visiting family, or exploring Sydney, choosing a professional baby seat taxi service helps ensure every journey starts and ends safely.",
+       "id": "6a834ee36bbc254024ce7451"
+      },
+      {
+       "text": "Need a taxi with a baby seat in Sydney? Book in advance and enjoy safe, reliable family transport wherever you need to go.",
+       "id": "6a834ee36bbc254024ce7452"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7453"
+    }
+   ]
+  },
+  "data": {
+   "title": "10 Benefits of Booking a Taxi with a Baby Seat",
+   "metaTitle": "10 Benefits of Booking a Taxi with a Baby Seat | Baby Seat Taxi Sydney Blog",
+   "metaDescription": "Discover the key benefits of booking a taxi with a baby seat arranged in advance in Sydney, from safety and convenience to peace of mind for parents.",
+   "excerpt": "Travelling with a baby or young child requires extra planning, especially when it comes to transportation. Here are the top 10 benefits of booking a taxi with a baby seat in Sydney.",
+   "sections": [
+    {
+     "paragraphs": [
+      {
+       "text": "Travelling with a baby or young child requires extra planning, especially when it comes to transportation. Whether you're heading to the airport, visiting family, attending a medical appointment, or simply exploring Sydney, ensuring your child travels safely should always be the top priority.",
+       "id": "6a834ee36bbc254024ce741d"
+      },
+      {
+       "text": "A taxi with a baby seat offers parents peace of mind by providing a safe, convenient, and reliable transportation solution without the hassle of carrying and installing their own child restraint.",
+       "id": "6a834ee36bbc254024ce741e"
+      },
+      {
+       "text": "Here are the top 10 benefits of booking a taxi with a baby seat in Sydney.",
+       "id": "6a834ee36bbc254024ce741f"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7420"
+    },
+    {
+     "heading": "1. Enhanced Safety for Your Child",
+     "paragraphs": [
+      {
+       "text": "The biggest advantage of booking a taxi with a baby seat is safety.",
+       "id": "6a834ee36bbc254024ce7421"
+      },
+      {
+       "text": "Child restraints are specifically designed to protect infants and young children during sudden braking, sharp turns, or collisions. A properly fitted baby seat significantly reduces the risk of injury compared to travelling without an appropriate restraint.",
+       "id": "6a834ee36bbc254024ce7422"
+      },
+      {
+       "text": "Parents can travel confidently knowing their child is secured according to recommended safety standards.",
+       "id": "6a834ee36bbc254024ce7423"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7424"
+    },
+    {
+     "heading": "2. Compliance with Child Safety Requirements",
+     "paragraphs": [
+      {
+       "text": "Child restraint regulations in Australia are designed to improve child passenger safety.",
+       "id": "6a834ee36bbc254024ce7425"
+      },
+      {
+       "text": "By booking a taxi equipped with an appropriate baby seat, parents can ensure their child travels in a suitable restraint based on their age and size.",
+       "id": "6a834ee36bbc254024ce7426"
+      },
+      {
+       "text": "When you book, tell us each child's age and approximate size so a suitable restraint can be arranged for babies and young children.",
+       "id": "6a834ee36bbc254024ce7427"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7428"
+    },
+    {
+     "heading": "3. No Need to Carry Your Own Baby Seat",
+     "paragraphs": [
+      {
+       "text": "One of the biggest frustrations when travelling is carrying bulky baby equipment.",
+       "id": "6a834ee36bbc254024ce7429"
+      },
+      {
+       "text": "When you book a taxi with a baby seat: no heavy baby seat to transport, no installation hassles, no extra luggage at the airport, no stress when travelling with multiple children.",
+       "id": "6a834ee36bbc254024ce742a"
+      },
+      {
+       "text": "This convenience is especially valuable for tourists, interstate travellers, and families arriving at Sydney Airport.",
+       "id": "6a834ee36bbc254024ce742b"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce742c"
+    },
+    {
+     "heading": "4. Stress-Free Airport Transfers",
+     "paragraphs": [
+      {
+       "text": "Airport travel with children can be challenging.",
+       "id": "6a834ee36bbc254024ce742d"
+      },
+      {
+       "text": "Between luggage, strollers, prams, and keeping children entertained, parents already have plenty to manage.",
+       "id": "6a834ee36bbc254024ce742e"
+      },
+      {
+       "text": "A pre-booked taxi with a baby seat ensures the correct child seat is ready upon arrival, no waiting for suitable transport, easy airport pickups and drop-offs, and comfortable travel after long flights.",
+       "id": "6a834ee36bbc254024ce742f"
+      },
+      {
+       "text": "Many Sydney families rely on baby seat taxis for both domestic and international airport transfers.",
+       "id": "6a834ee36bbc254024ce7430"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7431"
+    },
+    {
+     "heading": "5. Child Restraints Arranged in Advance",
+     "paragraphs": [
+      {
+       "text": "Incorrectly installed child restraints can reduce their effectiveness.",
+       "id": "6a834ee36bbc254024ce7432"
+      },
+      {
+       "text": "Child restraints are requested when booking and prepared according to the confirmed journey requirements.",
+       "id": "6a834ee36bbc254024ce7433"
+      },
+      {
+       "text": "This removes the uncertainty many parents experience when installing or adjusting child restraints themselves.",
+       "id": "6a834ee36bbc254024ce7434"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7435"
+    },
+    {
+     "heading": "6. Suitable Options for Different Ages",
+     "paragraphs": [
+      {
+       "text": "Children require different restraint types as they grow - from rear-facing baby capsules for newborns and young infants to forward-facing child seats for toddlers. Baby Seat Taxi Sydney arranges baby capsules and child seats. We do not provide booster seats - if your child uses a booster seat, please bring your own approved booster.",
+       "id": "6a834ee36bbc254024ce7436"
+      },
+      {
+       "text": "Parents can request the most appropriate seat when booking.",
+       "id": "6a834ee36bbc254024ce7437"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7438"
+    },
+    {
+     "heading": "7. Convenient for Tourists Visiting Sydney",
+     "paragraphs": [
+      {
+       "text": "Families visiting Sydney often face transportation challenges after landing.",
+       "id": "6a834ee36bbc254024ce7439"
+      },
+      {
+       "text": "Bringing a child seat on a plane can be inconvenient and expensive. Booking a taxi with a baby seat allows tourists to travel safely immediately after arrival, avoid renting additional equipment, explore Sydney comfortably, and enjoy a hassle-free travel experience.",
+       "id": "6a834ee36bbc254024ce743a"
+      },
+      {
+       "text": "This is particularly useful for visitors travelling with infants and toddlers.",
+       "id": "6a834ee36bbc254024ce743b"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce743c"
+    },
+    {
+     "heading": "8. Ideal for Medical Appointments and Daily Travel",
+     "paragraphs": [
+      {
+       "text": "Not every journey involves airports or holidays.",
+       "id": "6a834ee36bbc254024ce743d"
+      },
+      {
+       "text": "Parents frequently require transportation for medical appointments, childcare drop-offs, school pickups, family visits and shopping trips.",
+       "id": "6a834ee36bbc254024ce743e"
+      },
+      {
+       "text": "A taxi with a baby seat provides a practical and safe option whenever private transport is unavailable.",
+       "id": "6a834ee36bbc254024ce743f"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7440"
+    },
+    {
+     "heading": "9. Comfortable Travel for Parents and Children",
+     "paragraphs": [
+      {
+       "text": "A secure child is often a calmer child. Properly fitted baby seats help children remain comfortable throughout the journey while reducing movement and discomfort.",
+       "id": "6a834ee36bbc254024ce7441"
+      },
+      {
+       "text": "Parents can focus on the trip instead of worrying about safety or managing restless children.",
+       "id": "6a834ee36bbc254024ce7442"
+      },
+      {
+       "text": "Comfortable transportation creates a better experience for the entire family.",
+       "id": "6a834ee36bbc254024ce7443"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7444"
+    },
+    {
+     "heading": "10. Peace of Mind for Every Journey",
+     "paragraphs": [
+      {
+       "text": "Perhaps the greatest benefit is peace of mind.",
+       "id": "6a834ee36bbc254024ce7445"
+      },
+      {
+       "text": "Knowing that your child is travelling safely, the requested restraint has been arranged, and the vehicle is ready when needed allows parents to relax and enjoy the journey.",
+       "id": "6a834ee36bbc254024ce7446"
+      },
+      {
+       "text": "Whether travelling across Sydney or heading to the airport, confidence in your child's safety makes every trip more enjoyable.",
+       "id": "6a834ee36bbc254024ce7447"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7448"
+    },
+    {
+     "heading": "When Should You Book a Taxi with a Baby Seat?",
+     "paragraphs": [
+      {
+       "text": "Consider booking a baby seat taxi when: travelling to or from Sydney Airport, transporting newborns or infants, travelling with toddlers, visiting Sydney as a tourist, attending medical appointments, going on family outings, or using transport without access to your own child seat.",
+       "id": "6a834ee36bbc254024ce7449"
+      },
+      {
+       "text": "Pre-booking ensures the correct seat type is available when you need it.",
+       "id": "6a834ee36bbc254024ce744a"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce744b"
+    },
+    {
+     "heading": "Why Families Choose Baby Seat Taxi Sydney",
+     "paragraphs": [
+      {
+       "text": "At Baby Seat Taxi Sydney, we understand that family safety comes first.",
+       "id": "6a834ee36bbc254024ce744c"
+      },
+      {
+       "text": "We arrange baby capsules and child seats, airport transfers, family-friendly transport and reliable pre-booked services across Sydney.",
+       "id": "6a834ee36bbc254024ce744d"
+      },
+      {
+       "text": "Our goal is to make travelling with children simple, safe, and stress-free.",
+       "id": "6a834ee36bbc254024ce744e"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce744f"
+    },
+    {
+     "heading": "Book Your Baby Seat Taxi Today",
+     "paragraphs": [
+      {
+       "text": "Travelling with children doesn't have to be complicated.",
+       "id": "6a834ee36bbc254024ce7450"
+      },
+      {
+       "text": "Booking a taxi with a baby seat offers a safer, more convenient, and more comfortable experience for both parents and children. Whether you're heading to the airport, visiting family, or exploring Sydney, choosing a professional baby seat taxi service helps ensure every journey starts and ends safely.",
+       "id": "6a834ee36bbc254024ce7451"
+      },
+      {
+       "text": "Need a taxi with a baby seat in Sydney? Book in advance and enjoy safe, reliable family transport wherever you need to go.",
+       "id": "6a834ee36bbc254024ce7452"
+      }
+     ],
+     "id": "6a834ee36bbc254024ce7453"
+    }
+   ]
+  }
+ }
+]
