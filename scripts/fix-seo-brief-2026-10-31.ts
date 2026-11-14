@@ -486,10 +486,12 @@ async function run() {
         if (doc[field] === undefined || doc[field] === null) continue;
         let next = mapStrings(doc[field], applyRules);
         if (field === "metaDescription" && typeof next === "string" && next.length > 160) {
+          let meta: string = next;
           for (const [re, fn] of META_PATTERNS) {
-            const m = next.match(re);
-            if (m) next = fn(...m);
+            const m = meta.match(re);
+            if (m) meta = fn(...m);
           }
+          next = meta;
         }
         if (JSON.stringify(next) !== JSON.stringify(doc[field])) {
           data[field] = next;
@@ -561,7 +563,7 @@ async function run() {
   for (const c of changes) {
     if (c.collection === "pages" && NOINDEX_SLUG.test(c.doc.slug)) continue; // noindexed - not reviewed line by line
     const next = { ...c.doc, ...c.data, updatedAt: undefined, createdAt: undefined };
-    const target = c.collection === "blog-posts" ? { content: next.content } : next;
+    const target = c.collection === "blog-posts" ? { content: (next as Record<string, unknown>).content } : next;
     const path = `${c.collection}/${c.doc.slug}`;
     scan(target, path, problems, BANNED);
     scan(target, path, c.collection === "blog-posts" ? blogFlight : problems, c.collection === "blog-posts" ? BLOG_FLIGHT : BANNED_PAGES);
