@@ -24,6 +24,17 @@ export default buildConfig({
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL,
   admin: {
     user: Users.slug,
+    components: {
+      // IT Monitoring & Operations (admin-only) - see src/components/monitoring.
+      afterNavLinks: ["/src/components/monitoring/MonitoringNav#MonitoringNav"],
+      views: {
+        systemStatus: {
+          Component: "/src/components/monitoring/SystemStatusView#SystemStatusView",
+          path: "/system-status",
+          meta: { title: "System Status" },
+        },
+      },
+    },
   },
   collections: [Users, Sites, Media, Pages, BlogPosts, Locations, FaqLibrary, SearchConsoleMetrics, VehicleSpecs],
   endpoints: [gscOpportunitiesEndpoint],
