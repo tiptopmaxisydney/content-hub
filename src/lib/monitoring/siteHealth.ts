@@ -35,14 +35,54 @@ async function timedFetch(url: string) {
 }
 
 function describeError(err: unknown): string {
-  if (err instanceof Error && (err.name === "TimeoutError" || err.name === "AbortError")) {
+  if (
+    err instanceof Error &&
+    (err.name === "TimeoutError" || err.name === "AbortError")
+  ) {
     return `No response within ${TIMEOUT_MS / 1000}s`;
   }
   const cause = (err as { cause?: { code?: string } })?.cause?.code;
   return cause ? `Unreachable (${cause})` : "Unreachable";
 }
 
-export async function checkSite(site: { key: string; name: string; domain?: string | null }): Promise<SiteHealth> {
+export type SystemTarget = {
+  key: string;
+  name: string;
+  domain?: string | null;
+  /** Health path on the domain. Defaults to the brand sites' `/api/health/`. */
+  healthPath?: string;
+};
+
+// Tiptop Ride platform systems. They aren't CMS tenants, so they're listed here rather than in
+// the Sites collection. Each health endpoint comes from the tipopride / tipopride-backend repos.
+export const PLATFORM_SYSTEMS: SystemTarget[] = [
+  {
+    key: "tiptopride-customer",
+    name: "Tiptop Ride booking app",
+    domain: "bookings.tiptopride.com.au",
+    healthPath: "/api/health",
+  },
+  {
+    key: "nexus-admin",
+    name: "Nexus admin (Nexus1)",
+    domain: "nexus1.tiptopride.com.au",
+    healthPath: "/api/health",
+  },
+  {
+    key: "backend",
+    name: "Booking API (backend)",
+    domain: "nexus1.tiptopride.com.au:3000",
+    healthPath: "/health",
+  },
+];
+
+const STATUS_TO_STATE: Record<string, SiteState> = {
+  ok: "healthy",
+  degraded: "degraded",
+  down: "down",
+};
+
+export async function checkSite(site: SystemTarget): Promise<SiteHealth> {
   const base = {
     key: site.key,
     name: site.name,
@@ -51,22 +91,45 @@ export async function checkSite(site: { key: string; name: string; domain?: stri
   };
 
   if (!site.domain) {
-    return { ...base, state: "unknown", summary: "No domain set on the Site record", responseMs: null, checks: null, healthEndpoint: false };
+    return {
+      ...base,
+      state: "unknown",
+      summary: "No domain set on the Site record",
+      responseMs: null,
+      checks: null,
+      healthEndpoint: false,
+    };
   }
 
   const origin = `https://${site.domain.replace(/^https?:\/\//, "").replace(/\/$/, "")}`;
 
   try {
-    const { res, ms } = await timedFetch(`${origin}/api/health/`);
-    const body = res.ok ? await res.json().catch(() => null) : null;
+    const { res, ms } = await timedFetch(
+      `${origin}${site.healthPath ?? "/api/health/"}`,
+    );
+    // The backend answers 503 with a JSON body when its database is down, so read JSON on any status.
+    const isJson = (res.headers.get("content-type") ?? "").includes(
+      "application/json",
+    );
+    const body = isJson ? await res.json().catch(() => null) : null;
 
     if (body && typeof body.status === "string") {
       const checks = (body.checks ?? null) as Record<string, string> | null;
-      const failing = checks ? Object.entries(checks).filter(([, v]) => v === "down").map(([k]) => k) : [];
+      const failing = checks
+        ? Object.entries(checks)
+            .filter(([, v]) => v === "down")
+            .map(([k]) => k)
+        : [];
+      const state = STATUS_TO_STATE[body.status] ?? "degraded";
       return {
         ...base,
-        state: body.status === "ok" ? "healthy" : "degraded",
-        summary: body.status === "ok" ? "Site and dependencies responding" : `Site up, but not responding: ${failing.join(", ") || "a dependency"}`,
+        state,
+        summary:
+          state === "healthy"
+            ? "Responding, dependencies OK"
+            : state === "down"
+              ? `Down: ${failing.join(", ") || "not serving requests"}`
+              : `Up, but not responding: ${failing.join(", ") || "a dependency"}`,
         responseMs: ms,
         checks,
         healthEndpoint: true,
@@ -74,24 +137,49 @@ export async function checkSite(site: { key: string; name: string; domain?: stri
     }
 
     if (res.status >= 500) {
-      return { ...base, state: "down", summary: `Server error (HTTP ${res.status})`, responseMs: ms, checks: null, healthEndpoint: false };
+      return {
+        ...base,
+        state: "down",
+        summary: `Server error (HTTP ${res.status})`,
+        responseMs: ms,
+        checks: null,
+        healthEndpoint: false,
+      };
     }
   } catch (err) {
-    return { ...base, state: "down", summary: describeError(err), responseMs: null, checks: null, healthEndpoint: false };
-  }
-
-  // Health endpoint not deployed on this site yet - fall back to the homepage.
-  try {
-    const { res, ms } = await timedFetch(`${origin}/`);
     return {
       ...base,
-      state: res.ok ? "healthy" : "down",
-      summary: res.ok ? "Homepage responding (health check not deployed yet)" : `Homepage returned HTTP ${res.status}`,
+      state: "down",
+      summary: describeError(err),
+      responseMs: null,
+      checks: null,
+      healthEndpoint: false,
+    };
+  }
+
+  // Health endpoint not deployed on this system yet - fall back to the homepage. An API (custom
+  // healthPath) has no homepage, so any non-5xx answer there just means it is reachable.
+  try {
+    const { res, ms } = await timedFetch(`${origin}/`);
+    const up = site.healthPath ? res.status < 500 : res.ok;
+    return {
+      ...base,
+      state: up ? "healthy" : "down",
+      summary: up
+        ? "Responding (health check not deployed yet)"
+        : `Returned HTTP ${res.status}`,
       responseMs: ms,
       checks: null,
       healthEndpoint: false,
     };
   } catch (err) {
-    return { ...base, state: "down", summary: describeError(err), responseMs: null, checks: null, healthEndpoint: false };
+    return {
+      ...base,
+      state: "down",
+      summary: describeError(err),
+      responseMs: null,
+      checks: null,
+      healthEndpoint: false,
+    };
   }
 }
