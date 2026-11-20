@@ -55,12 +55,33 @@ export const Locations: CollectionConfig = {
       { name: "metaDescription", type: "textarea", required: true },
     ]},
 
+    {
+      name: "h1",
+      type: "text",
+      admin: { description: "Page heading. Leave empty for the default \"Maxi Taxi {name}\"." },
+    },
     { name: "heroDescription", type: "textarea", required: true },
     { name: "image", type: "upload", relationTo: "media", required: true },
 
     { name: "intro", type: "array", labels: { singular: "Paragraph", plural: "Intro Paragraphs" }, fields: [{ name: "text", type: "textarea", required: true }] },
     { name: "airportInfo", type: "textarea", admin: { description: "Sydney (Kingsford Smith) Airport drive time/route info for this location." } },
     { name: "westernAirportInfo", type: "textarea", admin: { description: "Western Sydney Airport (Badgerys Creek) info, if relevant to this location." } },
+    {
+      name: "contentSections",
+      type: "array",
+      labels: { singular: "Content Section", plural: "Content Sections" },
+      admin: {
+        description:
+          "Extra location-specific body sections shown after the airport info (e.g. \"Book an SUV Taxi in Bankstown\"). Text supports [anchor](/path/) internal links.",
+      },
+      fields: [
+        { name: "heading", type: "text" },
+        { name: "paragraphs", type: "array", fields: [{ name: "text", type: "textarea", required: true }] },
+        { name: "bulletList", type: "array", labels: { singular: "Bullet", plural: "Bullet List" }, fields: [{ name: "text", type: "text", required: true }] },
+        { name: "ctaLabel", type: "text", admin: { description: "Optional button under the section, e.g. Book SUV Taxi." } },
+        { name: "ctaHref", type: "text", admin: { description: "Button link, e.g. /book-taxi/?vehicle=suv#booking-form" } },
+      ],
+    },
 
     {
       name: "suburbs",
